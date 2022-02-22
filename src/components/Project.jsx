@@ -3,15 +3,20 @@ import "../utils.css"
 
 const projectList = projects.map(project =>
   <li key={project.id}>
-    {project.company}
+    <div className="flex-c">
+      {project.company}
+      {project.category}
+    </div>
   </li>
 );
 
 export function Project () {
   return (
     <div>
-          <ul className="flex">
-            {projectList}
+          <ul className="">
+            <div className="auto-grid card">
+              {projectList}
+            </div>
           </ul>
     </div>
   );
