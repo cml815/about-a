@@ -1,11 +1,11 @@
 import projects from "../data";
 import "../utils.css"
 
-const projectList = projects.map(project =>
+const projectCard = projects.map(project =>
   <li key={project.id}>
     <div className="flex-c">
-      {project.company}
-      {project.category}
+      <div key={project.company}>{project.company}</div>
+      <div key={project.category}>{project.category}</div>
     </div>
   </li>
 );
@@ -13,9 +13,9 @@ const projectList = projects.map(project =>
 export function Project () {
   return (
     <div>
-          <ul className="">
-            <div className="auto-grid card">
-              {projectList}
+          <ul className="card">
+            <div className="auto-grid">
+              {projectCard}
             </div>
           </ul>
     </div>
