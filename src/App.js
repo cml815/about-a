@@ -1,11 +1,14 @@
 import './App.css';
-import {Project } from "./components/Project";
+// import { TopNav } from "./components/TopNav";
+import { Project } from "./components/Project";
 
-function App() {
+
+export default function App() {
   return (
-
-    <Project />
+    <main>
+        {/* <TopNav /> */}
+      <Project />
+    </main>
   );
 }
 
-export default App;
