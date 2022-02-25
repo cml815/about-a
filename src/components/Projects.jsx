@@ -1,48 +1,9 @@
-// import projects from "../data";
+import {getProjects} from "../data";
 import "../utils.css"
 
 export function Projects () {
-  const projects = [
-    {
-      company: "Benefiber",
-      product: "branding",
-      category: "copywriting",
-      tests: [
-        { name: "aaa", type: "aaa-type"},
-        {name: "bbb", type: "bbb-type"}
-      ],
-      tags: [
-        "large brand",
-        "B2C",
-        "health"
-      ]
-    },
-    {
-      company: "Ingram Micro",
-      product: "thought leadership",
-      category: "enterprise marketing",
-      tests: [
-        {name: "myName", type: "myType"},
-        {name: "Alias", type: "aliatype"}
-      ],
-      tags: [
-        "digital magazine",
-        "Microsoft Azure"
-      ]
-    },
-    {
-      company: "Reward Expert",
-      product: "founder interviews",
-      category: "SEO content",
-      tests: [
-        {name: "testy", type: "A"},
-        {name: "meme", type: "B"}
-      ],
-      tags: "travel-tech"
-    }
-  ];
-
-  return (
+  let projects = getProjects();
+   return (
     <div>
       {projects.map((projects, index) => (
         <div key={index}>
