@@ -58,5 +58,4 @@ export function Project () {
       ))}
       </div>
   );
-
             }
