@@ -1,7 +1,7 @@
 // import projects from "../data";
 import "../utils.css"
 
-export function Project () {
+export function Projects () {
   const projects = [
     {
       company: "Benefiber",
@@ -44,11 +44,11 @@ export function Project () {
 
   return (
     <div>
-      {projects.map((project, index) => (
+      {projects.map((projects, index) => (
         <div key={index}>
-          <h2>Company: {project.company}</h2>
+          <h2>Company: {projects.company}</h2>
           <div>
-            {project.tests.map((test, i) => (
+            {projects.tests.map((test, i) => (
               <p key={i}>
                 {test.name} typed {test.type}
               </p>

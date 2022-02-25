@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import './App.css';
 // import { TopNav } from "./components/TopNav";
-import { Project } from "./components/Project";
+import { Projects } from "./components/Projects";
 import About from './routes/about';
+import Contact from './routes/contact';
 
 
 export default function App() {
@@ -11,8 +12,9 @@ export default function App() {
     <main>
       <Routes>
         {/* <TopNav /> */}
-        <Route path ="/" element= {<Project />} />
+        <Route path ="/" element= {<Projects />} />
         <Route path="/about" element={<About />} /> 
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </main>
     </>
