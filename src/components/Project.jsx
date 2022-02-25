@@ -7,7 +7,7 @@ export function Project () {
       company: "Benefiber",
       product: "branding",
       category: "copywriting",
-      tests: [
+      DataTransferItemList: [
         { name: "aaa", type: "aaa-type"},
         {name: "bbb", type: "bbb-type"}
       ],
