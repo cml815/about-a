@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 import './App.css';
 // import { TopNav } from "./components/TopNav";
 import { Projects } from "./components/Projects";
@@ -12,11 +12,16 @@ export default function App() {
     <main>
       <Routes>
         {/* <TopNav /> */}
-        <Route path ="/" element= {<Projects />} />
+        <Route path ="/" element= {<Projects />} /> 
         <Route path="/about" element={<About />} /> 
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={
+            <main style={{ padding: "1rem" }}>
+              <p>There's nothing here!</p>
+            </main>} /> 
       </Routes>
     </main>
+    <Outlet />
     </>
   );
 }
