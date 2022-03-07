@@ -9,6 +9,9 @@ export function Projects () {
       {projects.map((projects, index) => (
         <div className="card" key={index}>
           <h2>Company: {projects.company}</h2>
+          <ul className="flex-c tag">
+            <li className="tags">Tags: {projects.tags}</li>
+          </ul>
           <div>
             {projects.tests.map((test, i) => (
               <p key={i}>
@@ -16,6 +19,7 @@ export function Projects () {
               </p>
             ))}
           </div>
+
         </div>
       ))}
       </div>

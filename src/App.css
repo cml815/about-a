@@ -18,3 +18,10 @@
   border-radius: 0.5rem;
   padding: 2rem;
 }
+
+.tag {
+  height: 2rem;
+  background-color: navy;
+  color: white;
+  padding: .5rem; 
+}
