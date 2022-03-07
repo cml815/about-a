@@ -1,12 +1,13 @@
 import {getProjects} from "../data";
-import "../utils.css"
+import "../utils.css";
+import "../App.css";
 
 export function Projects () {
   let projects = getProjects();
    return (
-    <div>
+    <div className="autoGrid">
       {projects.map((projects, index) => (
-        <div key={index}>
+        <div className="card" key={index}>
           <h2>Company: {projects.company}</h2>
           <div>
             {projects.tests.map((test, i) => (

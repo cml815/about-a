@@ -1,3 +1,20 @@
+.hero {
+  display: grid;
+  background-color: lightskyblue;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 2rem;
+}
+
+.autoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  padding: 1rem; 
+}
+
 .card {
-  background-color: azure;
+  height: 240px;
+  background-color: rgb(182, 245, 245);
+  border-radius: 0.5rem;
+  padding: 2rem;
 }
