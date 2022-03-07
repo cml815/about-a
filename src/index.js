@@ -9,11 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="*" element={
-              <main style={{ padding: "1rem" }}>
-                <p>There's nothing here!</p>
-              </main>} />
+          <Route path="*" element={<App />} />
       </Routes>
     </Router>
   </React.StrictMode>,

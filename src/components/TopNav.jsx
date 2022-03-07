@@ -4,7 +4,7 @@ import "../utils.css";
 
 export function TopNav() {
   return (
-    <nav className="flex">
+    <nav className="">
       <Link to="/">Home</Link>
       {/* <Link to="/about">About</Link> */}
     <Outlet />
