@@ -1,10 +1,24 @@
 let projects = [
   {
     company: "Benefiber",
-    product: "branding",
+    product: "major brand",
     category: "copywriting",
     tests: [
-      {name: "aaa", type: "A"},
+      {name: "large brand", type: "B2C"},
+      {name: "whatev", type: "B"}
+    ],
+    tags: [
+      "large brand",
+      "B2C",
+      "health"
+    ]
+  },
+  {
+    company: "Colgate",
+    product: "major brand",
+    category: "copywriting",
+    tests: [
+      {name: "large brand", type: "B2C"},
       {name: "whatev", type: "B"}
     ],
     tags: [
