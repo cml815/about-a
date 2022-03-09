@@ -12,20 +12,22 @@ export default function App() {
     <>
     <main>
       <Routes>
+        <>
         <Route element={<TopNav />}>
-            <Route path ="/" element= {<Projects />}>
-              <Route path="/projects/:projectId" element={<Project />} />
-              <Route path="*" element={
-                <div>No Match!</div>
-              } />
-            </Route> 
-            <Route path="/about" element={<About />} /> 
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={
-              <main style={{ padding: "1rem" }}>
-                <p>There's nothing here!</p>
-              </main>} />
+        <Route path ="/" element= {<Projects />}>
+          <Route path="/projects/:projectId" element={<Project />} />
+          <Route path="*" element={
+            <div>No Match!</div>
+          } />
+        </Route> 
+        <Route path="/about" element={<About />} /> 
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={
+          <main style={{ padding: "1rem" }}>
+            <p>There's nothing here!</p>
+          </main>} />
         </Route>
+        </>
       </Routes>
     </main>
     <Outlet />
