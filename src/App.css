@@ -13,13 +13,13 @@
 }
 
 .cardContainer {
-  height: 160px;
   border: solid 1px #f7f7f7;
   border-radius: 0.5rem;
   padding: 1.5rem;
 }
 
 .card {
+  height: 160px;
   background-color: #f7f7f7;
   padding: 1rem;
   border-radius: 0.5rem;
