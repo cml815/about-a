@@ -11,7 +11,6 @@ export function Projects () {
           <div className="cardContainer">
             <div className="card" key={index}>
               <p className="label"><span>{projects.product}</span></p> 
-              <h2>{projects.company}</h2> 
               {/* <ul className="flex-c tag">
                 <li className="tags">Tags: {projects.tags}</li>
               </ul> */}
@@ -21,6 +20,9 @@ export function Projects () {
                     {test.name} typed {test.type}
                   </p>
                 ))}
+              </div>
+              <div className="cardLinks">
+                <h4>{projects.company}</h4> 
               </div>
             </div>
 

@@ -25,6 +25,10 @@
   border-radius: 0.5rem;
 }
 
+.cardLinks {
+  background-color: yellow;
+}
+
 span {
   height: 2rem;
   background-color: navy;
