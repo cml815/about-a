@@ -1,8 +1,10 @@
 import { useParams } from 'react-router-dom';
 
-export function Project () {
+export function Project() {
+  let params = useParams();
   return (
-    <h1>This is a project.</h1>
+    <h2>Project: {params.company}</h2>
+
 
   )
   

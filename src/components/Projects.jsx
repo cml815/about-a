@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import {getProjects} from "../data";
 import "../utils.css";
 import "../App.css";
@@ -29,10 +29,10 @@ export function Projects () {
                  <h4>{projects.company}</h4>
               </Link>
             </div>
-
           </div>
         );
       })}
+      <Outlet />
       </div>
   );
             }
