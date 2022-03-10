@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import {getProjects} from "../data";
 import "../utils.css";
 import "../App.css";
@@ -21,9 +22,12 @@ export function Projects () {
                   </p>
                 ))}
               </div>
-              <div className="cardLinks">
-                <h4>{projects.company}</h4> 
-              </div>
+              <Link className="cardLinks"
+               to={`/projects/${projects.company}`}
+               key={projects.company}
+               >
+                 <h4>{projects.company}</h4>
+              </Link>
             </div>
 
           </div>
