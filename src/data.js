@@ -54,3 +54,7 @@ let projects = [
 export function getProjects () {
   return projects;
 } 
+
+export function getProject() {
+  return projects;
+}
