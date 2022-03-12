@@ -3,9 +3,10 @@ import { getProject } from '../data';
 
 export function Project() {
   let params = useParams();
-  let project = getProject();
+  let project = getProject(params.projectIdß);
   return (
-    <h2>Project: {params.company}</h2>
+    <h2>Project: {project.company}</h2>
   )
   
 }
+

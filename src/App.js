@@ -6,6 +6,7 @@ import {Project } from "./components/Project";
 import {TopNav} from "./components/TopNav";
 import About from './routes/about';
 import Contact from './routes/contact';
+import Home from './routes/home';
 import './global.css'
 
 export default function App() {
@@ -15,12 +16,13 @@ export default function App() {
       <Routes>
         <>
         <Route element={<TopNav />}>
-        <Route path ="/" element= {<Projects />}>
-          <Route path="/projects/:projectId" element={<Project />} />
-          <Route path="*" element={
-            <div>No Match!</div>
-          } />
-        </Route> 
+        <Route path="/" element ={<Home />} />
+        <Route path ="/projects" element= {<Projects />}>
+          <Route path="/projects/:projectId" element={<Project />}>
+        </Route>
+        <Route path="*" element={
+          <div>No Match!</div> } />
+        </Route>  
         <Route path="/about" element={<About />} /> 
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={
