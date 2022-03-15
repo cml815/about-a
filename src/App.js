@@ -16,10 +16,10 @@ export default function App() {
       <Routes>
         <>
         <Route element={<TopNav />}>
-        <Route path="/" element ={<Home />} />
-        <Route path ="/projects" element= {<Projects />}>
-          <Route path="/projects/:projectId" element={<Project />}>
+        <Route path="/" element ={<Home />}>
+          <Route path ="/projects" element= {<Projects />}>
         </Route>
+        <Route path="/projects/:projectId" element={<Project />} />
         <Route path="*" element={
           <div>No Match!</div> } />
         </Route>  

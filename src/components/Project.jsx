@@ -5,7 +5,10 @@ export function Project() {
   let params = useParams();
   let project = getProject(params.projectId);
   return (
+    <>
     <h2>Project: {project.company}</h2>
+    
+    </>
   )
   
 }
