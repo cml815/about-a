@@ -18,6 +18,12 @@
   padding: 1.5rem;
 }
 
+@media (min-width: 30em) and (max-width: 80em) {
+  .cardContainer {
+    background-color: purple;
+  }
+}
+
 .card {
   height: 160px;
   background-color: #f7f7f7;
@@ -34,4 +40,8 @@ span {
   background-color: navy;
   color: white;
   padding: .5rem; 
+}
+
+.projectContainer {
+  width: 900px;
 }
