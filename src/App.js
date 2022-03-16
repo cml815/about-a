@@ -12,27 +12,23 @@ import './global.css'
 export default function App() {
   return (
     <>
-    <main>
       <Routes>
-        <>
-        <Route element={<TopNav />}>
-        <Route path="/" element ={<Home />}>
-          <Route path ="/projects" element= {<Projects />}>
+      <Route element={<TopNav />}>
+          <Route path="/" element ={<Home />} />
+          <Route path="/projects" element ={<Projects /> }>
+            <Route path="/projects/:projectId" element={<Project />}>
+              <Route path="*" element={
+              <div>No Match!</div> } />
+            </Route>
+          </Route>
         </Route>
-        <Route path="/projects/:projectId" element={<Project />} />
-        <Route path="*" element={
-          <div>No Match!</div> } />
-        </Route>  
         <Route path="/about" element={<About />} /> 
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={
-          <main style={{ padding: "1rem" }}>
+          <div style={{ padding: "1rem" }}>
             <p>There's nothing here!</p>
-          </main>} />
-        </Route>
-        </>
+            </div>} />
       </Routes>
-    </main>
     <Outlet />
     </>
   );
