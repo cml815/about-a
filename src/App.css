@@ -43,5 +43,7 @@ span {
 }
 
 .projectContainer {
-  width: 900px;
+  display: block;
+  padding: 1rem 0;
+  width: 100vw;
 }

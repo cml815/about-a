@@ -16,7 +16,7 @@ export default function App() {
       <Route element={<TopNav />}>
           <Route path="/" element ={<Home />} />
           <Route path="/projects" element ={<Projects /> }>
-            <Route path="/projects/:projectId" element={<Project />}>
+            <Route path=":projectId" element={<Project />}>
               <Route path="*" element={
               <div>No Match!</div> } />
             </Route>
