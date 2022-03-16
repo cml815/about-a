@@ -11,7 +11,8 @@ export function Projects () {
         return (
           <div className="cardContainer">
             <div className="card" key={index}>
-              <p className="label"><span>{projects.product}</span></p> 
+              <p className="label"><span>{projects.product}</span></p>
+              <img className="cardImage" src={projects.image} alt="project image" /> 
               {/* <ul className="flex-c tag">
                 <li className="tags">Tags: {projects.tags}</li>
               </ul> */}

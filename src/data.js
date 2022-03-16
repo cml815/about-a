@@ -11,7 +11,8 @@ let projects = [
       "large brand",
       "B2C",
       "health"
-    ]
+    ],
+    image: require("./images/thought.png")
   },
   {
     company: "Colgate",
@@ -25,7 +26,8 @@ let projects = [
       "large brand",
       "B2C",
       "health"
-    ]
+    ],
+    image: require("./images/health.png")
   },
   {
     company: "Ingram Micro",
@@ -37,7 +39,8 @@ let projects = [
     tags: [
       "digital magazine",
       "Microsoft Azure"
-    ]
+    ],
+    image: require("./images/health.png")
   },
   {
     company: "Reward Expert",
@@ -47,7 +50,8 @@ let projects = [
       {name: "cookie", type: "stop"},
       {name: "lorem", type: "ipsum"}
     ],
-    tags: "travel-tech"
+    tags: "travel-tech",
+    image: require("./images/thought.png")
   }
 ]
 

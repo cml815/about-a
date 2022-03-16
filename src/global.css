@@ -19,3 +19,8 @@ code {
 ul, li {
   list-style-type: none;
 }
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
