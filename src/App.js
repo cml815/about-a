@@ -6,7 +6,6 @@ import {Project } from "./components/Project";
 import {TopNav} from "./components/TopNav";
 import About from './routes/about';
 import Contact from './routes/contact';
-import Home from './routes/home';
 import './global.css'
 
 export default function App() {
