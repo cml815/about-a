@@ -6,7 +6,8 @@ export function TopNav() {
   return (
     <nav className="">
       <Link to="/">Home</Link>
-      <Link to="/projects">Portfolio</Link>
+      <Link to="/about">About</Link>
+      <Link to="/contact">Contact</Link>
       {/* <Link to="/about">About</Link> */}
     <Outlet />
     </nav>
