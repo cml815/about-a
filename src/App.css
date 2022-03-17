@@ -1,3 +1,8 @@
+.Wrapper {
+  width: 100vw;
+  background-color: #f7f7f7;
+}
+
 .hero {
   display: grid;
   background-color: lightskyblue;

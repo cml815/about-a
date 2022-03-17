@@ -1,0 +1,9 @@
+.wrapper {
+  width: 100vw;
+  background-color: #efefef;
+}
+
+.container {
+  padding: 1rem;
+  background-color: yellow;
+}
