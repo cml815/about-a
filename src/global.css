@@ -22,5 +22,6 @@ ul, li {
 
 img {
   max-inline-size: 100%;
+  max-width: 100%;
   block-size: auto;
 }

@@ -2,6 +2,7 @@ import { Link, Outlet } from 'react-router-dom';
 import {getProjects} from "../data";
 import "../utils.css";
 import "../App.css";
+import '../global.css';
 
 export function Projects () {
   let projects = getProjects();

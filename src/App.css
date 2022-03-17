@@ -21,6 +21,7 @@
   border: solid 1px #f7f7f7;
   border-radius: 0.5rem;
   padding: 1.5rem;
+  min-height: 100%;
 }
 
 @media (min-width: 30em) and (max-width: 80em) {
