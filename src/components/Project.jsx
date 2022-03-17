@@ -3,11 +3,6 @@ import { getProject } from '../data';
 import "../utils.css";
 import "../App.css";
 
-// export default function Invoice() {
-//   let params = useParams();
-//   return <h2>Invoice: {params.invoiceId}</h2>;
-// }
-
 export function Project() {
   let params = useParams();
   return (
