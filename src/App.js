@@ -12,7 +12,6 @@ export default function App() {
   return (
     <>
       <Routes>
-      {/* <Route element={<TopNav />}> */}
         <Route path="/" element ={<Projects />  }/>
 
         <Route path="/projects/:projectId" element={<Project />} />
@@ -26,7 +25,6 @@ export default function App() {
           <div style={{ padding: "1rem" }}>
             <p>There's nothing here!</p>
             </div>} />
-      {/* </Route> */}
       </Routes>
     <Outlet />
     </>
