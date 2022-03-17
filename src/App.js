@@ -12,12 +12,13 @@ export default function App() {
   return (
     <>
       <Routes>
-      <Route element={<TopNav />}>
+      {/* <Route element={<TopNav />}> */}
         <Route path="/" element ={<Projects />  }/>
+
         <Route path="/projects/:projectId" element={<Project />} />
         <Route path="*" element={
           <div>No Match!</div> } />
-       
+        
         
         <Route path="/about" element={<About />} /> 
         <Route path="/contact" element={<Contact />} />
@@ -25,7 +26,7 @@ export default function App() {
           <div style={{ padding: "1rem" }}>
             <p>There's nothing here!</p>
             </div>} />
-      </Route>
+      {/* </Route> */}
       </Routes>
     <Outlet />
     </>
