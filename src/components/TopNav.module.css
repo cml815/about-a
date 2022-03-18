@@ -1,0 +1,9 @@
+.TopNav {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.TopNav > * {
+  padding: 1rem;
+}
