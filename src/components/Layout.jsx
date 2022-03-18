@@ -6,8 +6,9 @@ import styles from './Layout.module.css';
 export default function Layout() {
   return (
     <>
+    <TopNav />
     <main className={styles.wrapper}>
-      <TopNav />
+      
       <section className={styles.container}>
         
         
