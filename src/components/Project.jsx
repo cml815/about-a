@@ -11,9 +11,10 @@ export function Project() {
   return (
     <>
     <div className="projectContainer">
+      <div class="flex">
     <Sidebar />
       <h2>Project: {params.projectId}</h2>
-    
+      </div>
     <main>
     </main>
     </div>
