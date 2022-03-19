@@ -1,10 +1,10 @@
 import { useParams } from 'react-router-dom';
 import { NavLink, Outlet } from "react-router-dom";
-import { getProject } from '../data';
 import "../utils.css";
 import styles from './Project.module.css'
 import "../App.css";
 import Sidebar from './Sidebar';
+import ProjectImage from './ProjectImage';
 
 export function Project() {
   let params = useParams();
@@ -12,10 +12,11 @@ export function Project() {
     <>
     <div className="projectContainer">
       <div class="flex">
-    <Sidebar />
+        <Sidebar />
       <h2>Project: {params.projectId}</h2>
       </div>
     <main>
+        {params.image}
     </main>
     </div>
     </>
