@@ -4,7 +4,22 @@ import "../utils.css";
 import styles from './Project.module.css'
 import "../App.css";
 import Sidebar from './Sidebar';
-import ProjectImage from './ProjectImage';
+// import ProjectImage from './ProjectImage';
+
+
+// function ProfilePage() {
+//   // Get the userId param from the URL.
+//   let { userId } = useParams();
+//   // ...
+// }
+
+// import { useParams } from "react-router-dom";
+
+// export default function Invoice() {
+//   let params = useParams();
+//   return <h2>Invoice: {params.invoiceId}</h2>;
+// }
+
 
 export function Project() {
   let params = useParams();
@@ -14,6 +29,8 @@ export function Project() {
       <div class="flex">
         <Sidebar />
       <h2>Project: {params.projectId}</h2>
+        {/* <ProjectImage /> */}
+
       </div>
     <main>
         {params.image}
