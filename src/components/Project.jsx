@@ -28,8 +28,10 @@ export function Project() {
     <div className="projectContainer">
       <div class="flex">
         <Sidebar />
-      <h2>Project: {params.projectId}</h2>
+      <div className={styles.container}>
+        <h2>{params.projectId}</h2>
         {/* <ProjectImage /> */}
+      </div>
 
       </div>
     <main>

@@ -1,4 +1,7 @@
 .sidebar {
-  background-color: purple;
+    background-color: purple;
+}
 
+.container {
+  padding: 1rem;
 }
