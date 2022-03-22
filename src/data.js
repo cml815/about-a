@@ -59,6 +59,10 @@ export function getProjects () {
   return projects;
 } 
 
-export function getProject() {
-  return projects;
+// export function getProject() {
+//   return projects;
+// }
+
+export function getProject(company) {
+  return projects.find(project => project.company === company);
 }

@@ -4,6 +4,7 @@ import "../utils.css";
 import styles from './Project.module.css'
 import "../App.css";
 import Sidebar from './Sidebar';
+import { getProject } from '../data';
 // import ProjectImage from './ProjectImage';
 
 
@@ -20,9 +21,9 @@ import Sidebar from './Sidebar';
 //   return <h2>Invoice: {params.invoiceId}</h2>;
 // }
 
-
 export function Project() {
   let params = useParams();
+  let project = getProject;
   return (
     <>
     <div className="projectContainer">
@@ -31,11 +32,12 @@ export function Project() {
       <div className={styles.container}>
         <h2>{params.projectId}</h2>
         {/* <ProjectImage /> */}
+        {project.product}
       </div>
 
       </div>
     <main>
-        {params.image}
+        {project.image}
     </main>
     </div>
     </>
