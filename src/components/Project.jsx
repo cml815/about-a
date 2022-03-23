@@ -13,9 +13,11 @@ export function Project() {
   let project = getProject(params.projectId);
   return (
     <>
-    <main className={styles.wrapper}>
-      <Sidebar />
-      <section className={styles.projectContainer}>
+    <div className={styles.wrapper}>
+      <aside className={styles.sidebar}>
+        <Sidebar />
+      </aside>
+      <main className={styles.projectContainer}>
         <div className={styles.header}>
           
           <h2>Project ID: {params.projectId}</h2>
@@ -27,9 +29,9 @@ export function Project() {
 
         </div>
           
-        </section>  
+        </main>  
       
-    </main>
+    </div>
     </>
   )
   

@@ -1,17 +1,26 @@
 .wrapper {
   background-color: #efefef;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr minmax(150px, 20%);
+  height: 100px;
+}
+
+.main, .sidebar {
+  padding: 12px;
+  text-align: center;
+  background: #81cfd9;
 }
 
 .header {
   height: 33vh;
-  width: 100vw;
-  background-color: green;
+  width: 66vw;
+  background-color: rgb(205, 252, 205);
 }
 
-.sidebar {
-    background-color: #800080;
+main {
+  background: #d4f2c4;
 }
+
 
 .container {
   display: flex;
