@@ -66,3 +66,4 @@ export function getProjects () {
 export function getProject(company) {
   return projects.find(project => project.company === company);
 }
+

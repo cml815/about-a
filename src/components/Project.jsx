@@ -23,7 +23,8 @@ import { getProject } from '../data';
 
 export function Project() {
   let params = useParams();
-  let project = getProject;
+  // let project = getProject();
+  let project = getProject(params.projectId);
   return (
     <>
     <div className="projectContainer">
@@ -32,12 +33,12 @@ export function Project() {
       <div className={styles.container}>
         <h2>{params.projectId}</h2>
         {/* <ProjectImage /> */}
-        {project.product}
+        <p>{project.product}</p>
       </div>
 
       </div>
     <main>
-        {project.image}
+        <h4>{project.image}</h4>
     </main>
     </div>
     </>
