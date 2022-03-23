@@ -1,7 +1,19 @@
+.wrapper {
+  background-color: #efefef;
+  display: flex;
+}
+
+.header {
+  height: 33vh;
+  width: 100vw;
+  background-color: green;
+}
+
 .sidebar {
-    background-color: purple;
+    background-color: #800080;
 }
 
 .container {
+  display: flex;
   padding: 1rem;
 }
