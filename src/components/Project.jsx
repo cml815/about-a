@@ -5,7 +5,7 @@ import styles from './Project.module.css'
 import "../App.css";
 import Sidebar from './Sidebar';
 import { getProject } from '../data';
-// import ProjectImage from './ProjectImage';
+import ProjectImage from './ProjectImage';
 
 
 // function ProfilePage() {
@@ -30,15 +30,15 @@ export function Project() {
     <div className="projectContainer">
       <div class="flex">
         <Sidebar />
+        <img src={project.image} width="400" />
+      </div>
       <div className={styles.container}>
-        <h2>{params.projectId}</h2>
-        {/* <ProjectImage /> */}
-        <p>{project.product}</p>
+        <h2>Project ID: {params.projectId}</h2>
+        <p>Product: {project.product}</p>
       </div>
 
-      </div>
     <main>
-        <h4>{project.image}</h4>
+        
     </main>
     </div>
     </>
