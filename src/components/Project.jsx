@@ -30,7 +30,7 @@ export function Project() {
     <div className="projectContainer">
       <div class="flex">
         <Sidebar />
-        <img src={project.image} width="400" />
+        <img src={project.image} width="500" />
       </div>
       <div className={styles.container}>
         <h2>Project ID: {params.projectId}</h2>
