@@ -17,7 +17,7 @@
   padding: 1rem; 
 }
 
-.cardContainer {
+/* .cardContainer {
   border: solid 1px #f7f7f7;
   border-radius: 0.5rem;
   padding: 1.5rem;
@@ -28,10 +28,9 @@
   .cardContainer {
     background-color: purple;
   }
-}
+} */
 
 .card {
-  height: 160px;
   background-color: #f7f7f7;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -41,11 +40,15 @@
   background-color: yellow;
 }
 
-span {
+.label {
   height: 2rem;
-  background-color: navy;
-  color: white;
   padding: .5rem; 
+  border-radius: 10px;
+}
+
+.label p {
+  background-color: navy;
+  color: gray;
 }
 
 .projectContainer {
