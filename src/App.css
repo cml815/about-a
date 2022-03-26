@@ -3,12 +3,12 @@
   background-color: #f7f7f7;
 }
 
-.hero {
+/* .hero {
   display: grid;
   background-color: lightskyblue;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   padding: 2rem;
-}
+} */
 
 .autoGrid {
   display: grid;
