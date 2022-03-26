@@ -5,7 +5,7 @@
   height: 100px;
 }
 
-.main, .sidebar {
+.sidebar {
   padding: 12px;
   text-align: center;
   background: #81cfd9;
@@ -14,11 +14,13 @@
 .header {
   height: 33vh;
   width: 66vw;
-  background-color: rgb(205, 252, 205);
+  background-color: rgb(26, 70, 26);
 }
 
 main {
-  background: #d4f2c4;
+  background: #924889;
+  padding: 12px;
+  text-align: center;
 }
 
 

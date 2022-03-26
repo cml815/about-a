@@ -20,7 +20,6 @@ export default function App() {
           <div>No Match!</div> } />
         </Route>
         
-        
         <Route path="/about" element={<About />} /> 
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={
