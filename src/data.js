@@ -1,6 +1,7 @@
 let projects = [
   {
     company: "Benefiber",
+    theme: "#00ad42",
     product: "major brand",
     category: "copywriting",
     tests: [
