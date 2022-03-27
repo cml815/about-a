@@ -19,6 +19,7 @@
 
 .cardContainer {
   border: solid 1px black;
+  background-color: aquamarine;
 }
 
 /* .cardContainer {
