@@ -14,22 +14,26 @@ export function Project() {
   return (
     <>
     <div className={styles.wrapper}>
-      <aside className={styles.sidebar}>
+      <aside className={styles.sideNav}>
         <Sidebar />
       </aside>
-      <main className={styles.projectContainer}>
-        <div className={styles.header}>
-          
-          <h2>Project ID: {params.projectId}</h2>
-          <p>Product: {project.product}</p>
+      <div className={styles.header}>
+        <h2>Project ID: {params.projectId}</h2>
+        <p>Product: {project.product}</p>
       </div>
+      <main className={styles.projectContainer}>
+        
         <div className={styles.container}>
           <p>Category: {project.category}</p>
         <img src={project.image} width="500" />
 
         </div>
-          
-        </main>  
+        </main>
+        <div className={styles.sidebar}>
+          <p>Sidebar</p>
+          <p>Sidebar</p>
+          <p>Sidebar</p>
+        </div>  
       
     </div>
     </>
