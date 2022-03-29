@@ -6,7 +6,6 @@ import "../App.css";
 import Sidebar from './Sidebar';
 import { getProject } from '../data';
 import ProjectImage from './ProjectImage';
-
 export function Project() {
   let params = useParams();
   // let project = getProject();
@@ -20,12 +19,14 @@ export function Project() {
       </div>
       <nav className={styles.sideNav}>
           <Sidebar />
+  
         </nav>
       <main className={styles.projectContainer}>
         
         <div className={styles.container}>
           <p>Category: {project.category}</p>
           <img src={project.image} width="400" />
+          
         </div>
         </main>
         <div className={styles.sidebar}>
@@ -35,6 +36,7 @@ export function Project() {
         </div>  
       
     </div>
+    <Outlet />
     </>
   )
   
