@@ -25,7 +25,7 @@ export function Project() {
         
         <div className={styles.container}>
           <p>Category: {project.category}</p>
-          <img src={project.image} width="500" />
+          <img src={project.image} width="400" />
         </div>
         </main>
         <div className={styles.sidebar}>

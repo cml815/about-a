@@ -1,7 +1,6 @@
 .wrapper {
   max-width: 100%;
   display: grid;
-  background-color: yellow;
   gap: 1rem;
   grid-template-areas:
     "header"
