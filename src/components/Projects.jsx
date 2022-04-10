@@ -37,7 +37,7 @@ export function Projects () {
                 color: isActive ? "red" : "",
               })}
               to={`/projects/${project.category}`}
-              key={project.category}
+              key={project.id}
             >
               {project.category}
             </NavLink>

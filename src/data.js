@@ -1,9 +1,11 @@
 let projects = [
   {
+
+    id: "1",
     company: "Benefiber",
     theme: "#00ad42",
     product: "major brand",
-    category: "copywriting",
+    category: "",
     tests: [
       {name: "large brand", type: "B2C"},
       {name: "whatev", type: "B"}
@@ -16,6 +18,7 @@ let projects = [
     image: require("./images/thought.png")
   },
   {
+    id: "2",
     company: "Colgate",
     product: "major brand",
     category: "copywriting",
@@ -31,6 +34,7 @@ let projects = [
     image: require("./images/health.png")
   },
   {
+    id: "3",
     company: "Ingram Micro",
     product: "thought leadership",
     category: "enterprise marketing",
@@ -44,6 +48,7 @@ let projects = [
     image: require("./images/health.png")
   },
   {
+    id: "4",
     company: "Reward Expert",
     product: "founder interviews",
     category: "SEO content",
