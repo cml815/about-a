@@ -1,4 +1,4 @@
-import { Link, Outlet } from 'react-router-dom';
+import { Link, NavLink, Outlet, useSearchParams } from 'react-router-dom';
 import {getProjects} from "../data";
 import "../utils.css";
 import "../App.css";
@@ -6,12 +6,43 @@ import '../global.css';
 
 export function Projects () {
   let projects = getProjects();
+  let [searchParams, setSearchParams] = useSearchParams();
    return (
      <>
-      <section className="header">
+      <nav className="header">
         <h1>This is the projects header</h1>
-        <p>Add some information here</p>
-      </section>
+        <input
+          value={searchParams.get("filter") || ""}
+          onChange={(event) => {
+            let filter = event.target.value;
+            if (filter) {
+              setSearchParams({ filter });
+            } else {
+              setSearchParams({});
+            }
+          }}
+        />
+         {projects
+          .filter((project) => {
+            let filter = searchParams.get("filter");
+            if (!filter) return true;
+            // let name = invoice.name.toLowerCase();
+            // return company.startsWith(filter.toLowerCase());
+          })
+          .map((project) => (
+            <NavLink
+              style={({ isActive }) => ({
+                display: "block",
+                margin: "1rem 0",
+                color: isActive ? "red" : "",
+              })}
+              to={`/projects/${project.category}`}
+              key={project.category}
+            >
+              {project.category}
+            </NavLink>
+          ))}
+      </nav>
       <div className="autoGrid">
         {projects.map((projects, index) => {
           return (

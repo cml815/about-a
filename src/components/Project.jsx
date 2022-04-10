@@ -14,7 +14,9 @@ export function Project() {
     <>
     <div className={styles.wrapper}>
       <div className={styles.header}>
-        <h2>Project ID: {params.projectId}</h2>
+        {/* project ID === company */}
+        <h2>{params.projectId}</h2>
+        {/* product category needs renaming */}
         <p>Product: {project.product}</p>
       </div>
       <nav className={styles.sideNav}>
