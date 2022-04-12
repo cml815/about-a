@@ -6,6 +6,7 @@ import "../App.css";
 import Sidebar from './Sidebar';
 import { getProject } from '../data';
 import ProjectImage from './ProjectImage';
+
 export function Project() {
   let params = useParams();
   // let project = getProject();

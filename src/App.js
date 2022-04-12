@@ -3,6 +3,7 @@ import './App.css';
 // import { TopNav } from "./components/TopNav";
 import { Projects } from "./components/Projects";
 import { Project } from "./components/Project";
+import { Categories } from "./components/Categories";
 import { Category } from "./components/Category";
 import About from './routes/about';
 import Contact from './routes/contact';
@@ -18,12 +19,16 @@ export default function App() {
           <Route path="*" element={
           <div>No Match!</div> } />
         </Route>
-        {/* <Route path="/categories/:categoryId"
-        element={<Category />}>
+
+        <Route path="/categories" element={<Category />}>
           <Route path="*" element={
           <div>No Category Found!</div> } />
-        </Route> */}
-        
+          <Route path="/categories/:categoryId" element={<Categories />}>
+          <Route path="*" element={
+          <div>No Category Found!</div> } />
+          </Route>
+        </Route> 
+         
         <Route path="/about" element={<About />} /> 
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={
