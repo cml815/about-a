@@ -21,8 +21,6 @@ export default function App() {
         </Route>
 
         <Route path="/categories" element={<Category />}>
-          <Route path="*" element={
-          <div>No Category Found!</div> } />
           <Route path="/categories/:categoryId" element={<Categories />}>
           <Route path="*" element={
           <div>No Category Found!</div> } />
