@@ -9,8 +9,13 @@ export function Projects () {
   let [searchParams, setSearchParams] = useSearchParams();
    return (
      <>
+     <div classname="hero">
+      <h1>Writer's Portfolio</h1>
+      <h2>Subheading</h2>
+      <p>Hi, I'm Caroline Leopold, a writer who ties health, technology &amp; interested parties. </p>
+     </div>
       <nav className="header">
-        <h1>This is the projects header</h1>
+        <h1>This is the projects nav header</h1>
         <input
           value={searchParams.get("filter") || ""}
           onChange={(event) => {
@@ -26,8 +31,8 @@ export function Projects () {
           .filter((project) => {
             let filter = searchParams.get("filter");
             if (!filter) return true;
-            // let name = invoice.name.toLowerCase();
-            // return company.startsWith(filter.toLowerCase());
+            let name = project.name.toLowerCase();
+            return name.startsWith(filter.toLowerCase());
           })
           .map((project) => (
             <NavLink
