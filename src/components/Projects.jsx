@@ -9,10 +9,12 @@ export function Projects () {
   let [searchParams, setSearchParams] = useSearchParams();
    return (
     <div className="projects-wrapper">
-      <section className="hero container">
-        <h1>Writer's Portfolio</h1>
-        <h2>Subheading</h2>
-        <p>Hi, I'm Caroline Leopold, a writer who ties health, technology &amp; interested parties. </p>
+      <section className="hero container flex">
+        <div>
+          <h1>Bridging Human &amp; Machine Language</h1>
+          <h2>Caroline Leopold, medical &amp; technical writer</h2>
+          <p>I relate expert opinion and technology  with human potential.</p>
+        </div>
       </section>
         <nav className="header">
           <h1>This is the projects nav header</h1>
