@@ -15,6 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element ={<Projects />  }/>
         <Route path="/projects/:projectId" element={<Project />}>
+          {/* <Route path="/categories" element={<Category />} /> */}
           <Route path="*" element={
           <div>No Match!</div> } />
         </Route>

@@ -41,7 +41,7 @@ export function Projects () {
                   margin: "1rem 0",
                   color: isActive ? "red" : "",
                 })}
-                to={`/projects/${project.category}`}
+                to={`/categories/${project.category}`}
                 key={project.id}
               >
                 {project.category}
