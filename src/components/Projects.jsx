@@ -11,9 +11,7 @@ export function Projects () {
     <div className="projects-wrapper">
       <section className="hero container flex">
         <div>
-          <h1>Bridging Human &amp; Machine Language</h1>
-          <h2>Caroline Leopold, medical &amp; technical writer</h2>
-          <p>I relate expert opinion and technology  with human potential.</p>
+          <h1>Caroline Leopold, Writer</h1> <h2>Technical &amp; medical content made relevant &amp; relatable.</h2>
         </div>
       </section>
         <nav className="header">
