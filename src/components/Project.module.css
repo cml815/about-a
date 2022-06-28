@@ -31,7 +31,6 @@
 .header {
   grid-area: header;
   width: 100vw;
-  background-color: #efefef;
 }
 
 .sideNav {
