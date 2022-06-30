@@ -14,7 +14,7 @@ export function Projects () {
           <h1 className="display">Caroline Leopold, Writer</h1> <h2>Technical &amp; medical content made relevant &amp; relatable.</h2>
         </div>
       </section>
-      <section className="bg-dark">
+      <section className="bg-dark hero-center">
       <div class="glitch flex-c"> 
         <p>technical &amp; medical</p>
         <div class="line">Writer</div>
