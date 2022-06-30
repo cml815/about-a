@@ -1,8 +1,7 @@
 
 export function Category() {
   return (
-
-    <h2>This is a category page.</h2>
+    <h2>This is a category page. In progress...</h2>
   )
   
 }
