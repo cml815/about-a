@@ -11,8 +11,22 @@ export function Projects () {
     <div className="projects-wrapper">
       <section className="hero container flex">
         <div>
-          <h1>Caroline Leopold, Writer</h1> <h2>Technical &amp; medical content made relevant &amp; relatable.</h2>
+          <h1 className="display">Caroline Leopold, Writer</h1> <h2>Technical &amp; medical content made relevant &amp; relatable.</h2>
         </div>
+      </section>
+      <section className="bg-dark">
+      <div class="glitch flex-c"> 
+        <p>technical &amp; medical</p>
+        <div class="line">Writer</div>
+        <div class="line">Writer</div>
+        <div class="line">Writer</div>
+        <div class="line">Writer</div>
+        <div class="line">Writer</div>
+        <div class="line">Writer</div>
+        <div class="line">Writer</div>
+        <div class="line">Writer</div>
+        <div class="line">Writer</div>
+      </div> 
       </section>
         <nav className="header">
           <h1>This is the projects nav header</h1>
