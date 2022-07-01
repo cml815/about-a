@@ -9,27 +9,23 @@ export function Projects () {
   let [searchParams, setSearchParams] = useSearchParams();
    return (
     <div className="projects-wrapper">
-      <section className="hero container flex">
-        <div>
-          <h1 className="display">Caroline Leopold, Writer</h1> <h2>Technical &amp; medical content made relevant &amp; relatable.</h2>
-        </div>
-      </section>
-      <section className="bg-dark hero-center">
+      <section className="bg-dark hero flex-c">
+      <h2 className="caption-top">technical &amp; medical</h2>
       <div class="glitch flex-c"> 
-        <p>technical &amp; medical</p>
-        <div class="line">Writer</div>
-        <div class="line">Writer</div>
-        <div class="line">Writer</div>
-        <div class="line">Writer</div>
-        <div class="line">Writer</div>
-        <div class="line">Writer</div>
-        <div class="line">Writer</div>
-        <div class="line">Writer</div>
-        <div class="line">Writer</div>
-      </div> 
+        <div className="line">Writer</div>
+        <div className="line">Writer</div>
+        <div className="line">Writer</div>
+        <div className="line">Writer</div>
+        <div className="line">Writer</div>
+        <div className="line">Writer</div>
+        <div className="line">Writer</div>
+        <div className="line">Writer</div>
+        <div className="line">Writer</div>
+      </div>
+      <h2 className="center">Caroline Leopold</h2> 
       </section>
         <nav className="header">
-          <h1>This is the projects nav header</h1>
+          <h1>Portfolio</h1>
           <input
             value={searchParams.get("filter") || ""}
             onChange={(event) => {
@@ -72,7 +68,7 @@ export function Projects () {
                   <div className="label">
                     <p>{projects.product}</p>
                   </div>
-                  <img className="cardImage" src={projects.image} alt="project image" /> 
+                  {/* <img className="cardImage" src={projects.image} alt="project image" />  */}
                   {/* <ul className="flex-c tag">
                     <li className="tags">Tags: {projects.tags}</li>
                   </ul> */}

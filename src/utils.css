@@ -1,5 +1,19 @@
 .bg-dark {
   background-color: #1c1c1c;
+  color: #efefef;
+
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;    
+  /* gap: 20px; */
+}
+
+.center {
+  text-align: center;
 }
 
 .flex {

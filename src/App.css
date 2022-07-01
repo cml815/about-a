@@ -12,21 +12,12 @@
   }
 }
 
-.hero {  
-  height: 60vh;
-  /* background-color: #1A1B1C; */
-  background-color: #1c1c1c; 
- /* background: url(./images/waves-2.svg)no-repeat; */
-  color: #efefef;
-}
-
-.hero-center {
-  background: repeating-linear-gradient(0deg, #0E0D0E 25%, #0E0D0E 50%, #171819 50%, #171819 75%);
+.hero {
+  background: repeating-linear-gradient(0deg, #1c1c1c 25%, #0E0D0E 50%, #171819 50%, #171819 75%);
   background-size: 10px 10px;
-  height: 100vh;
+  height: 75vh;
   overflow: hidden;
   display: flex;
-  font-family: "Barlow", sans-serif;
   justify-content: center;
   align-items: center;
 }
@@ -57,6 +48,7 @@
 } */
 
 .card {
+  min-width: 0;
   background-color: #f7f7f7;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -85,6 +77,12 @@
 
 .glitch {
   font-size: 4rem;
-  color: rgb(178, 253, 253);
+  color: rgb(131, 216, 216);
   font-weight: bold;
+}
+
+.caption-top {
+  font-size: 1.25rem;
+  line-height: 1.1rem;
+  margin: .5rem;
 }
