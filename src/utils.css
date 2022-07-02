@@ -35,3 +35,13 @@
 .system {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
+
+.gradient {
+  background: -webkit-linear-gradient(45deg, rgb(122, 201, 227), rgb(199, 203, 219) ,rgb(100, 123, 208));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.xl {
+  font-size: 2rem;
+}

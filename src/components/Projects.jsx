@@ -10,7 +10,7 @@ export function Projects () {
    return (
     <div className="projects-wrapper">
       <section className="bg-dark hero flex-c">
-      <h2 className="caption-top">technical &amp; medical</h2>
+      <p className="caption-top xl">technical &amp; medical</p>
       <div class="glitch flex-c"> 
         <div className="line">Writer</div>
         <div className="line">Writer</div>
@@ -22,7 +22,7 @@ export function Projects () {
         <div className="line">Writer</div>
         <div className="line">Writer</div>
       </div>
-      <h2 className="center">Caroline Leopold</h2> 
+      <p className="center gradient xl">caroline leopold</p> 
       </section>
         <nav className="header">
           <h1>Portfolio</h1>
