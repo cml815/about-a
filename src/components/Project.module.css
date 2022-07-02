@@ -10,7 +10,7 @@
 }
 @media (min-width: 500px) {
   .wrapper {
-    grid-template-columns: repeat(4  , 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
       "header  header header"
       "sideNav main main"
