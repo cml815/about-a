@@ -65,8 +65,8 @@ export function Projects () {
               <ul className="cardContainer" role="list">
                 <li>
                 <div className="" key={index}>
-                    <div className="container label">
-                    <p className="label">{projects.product}</p>
+                    <div className="container">
+                      <p className="label">{projects.product}</p>
                     </div>
                   <img className="cardImage" src={projects.image} alt="project image" /> 
                   {/* <ul className="flex-c tag">
