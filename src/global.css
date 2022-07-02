@@ -59,9 +59,8 @@ h5, h6 {
   font-size: 1.2rem;
 }
 
-
-nav {
-  
+header {
+  padding: 0 .5rem;
 }
 
 /** GLOBAL LAYOUTS */

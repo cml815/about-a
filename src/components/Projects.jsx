@@ -24,7 +24,7 @@ export function Projects () {
       </div>
       <p className="center gradient xl">caroline leopold</p> 
       </section>
-        <nav className="header">
+        <header className="">
           <h1>Portfolio</h1>
           <input
             value={searchParams.get("filter") || ""}
@@ -57,7 +57,7 @@ export function Projects () {
                 {project.category}
               </NavLink>
             ))}
-        </nav>
+        </header>
         <div className="autoGrid">
           {projects.map((projects, index) => {
             return (
