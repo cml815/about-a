@@ -64,11 +64,11 @@ export function Projects () {
               <>    
               <ul className="cardContainer" role="list">
                 <li>
-                <figure className="card" key={index}>
-                  <div className="label">
-                    <p>{projects.product}</p>
-                  </div>
-                  {/* <img className="cardImage" src={projects.image} alt="project image" />  */}
+                <div className="" key={index}>
+              
+                    <p className="label">{projects.product}</p>
+                  
+                  <img className="cardImage" src={projects.image} alt="project image" /> 
                   {/* <ul className="flex-c tag">
                     <li className="tags">Tags: {projects.tags}</li>
                   </ul> */}
@@ -85,7 +85,7 @@ export function Projects () {
                   >
                     <h4>{projects.company}</h4>
                   </Link>
-                </figure>
+                </div>
                 </li>
               </ul>
               </>
