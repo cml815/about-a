@@ -5,13 +5,13 @@ let projects = [
     company: "Benefiber",
     theme: "#00ad42",
     product: "major brand",
-    category: "",
+    category: "categoryXXX",
     tests: [
       {name: "large brand", type: "B2C"},
-      {name: "whatev", type: "B"}
+      {name: "name", type: "type"}
     ],
     tags: [
-      "large brand",
+      "tagXXX",
       "B2C",
       "health"
     ],
