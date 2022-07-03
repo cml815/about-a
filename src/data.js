@@ -21,6 +21,8 @@ let projects = [
     title1: "What Does the Gut-Brain Connection Mean",
     url0: "https://www.benefiber.com/fiber-in-your-life/fiber-and-wellness/aging-and-digestion/",
     url1: "https://www.benefiber.com/digestive-health/gut-health-101/what-is-gut-brain-connection/",
+    url2: "https://www.benefiber.com/fiber-in-your-life/fiber-and-wellness/exercises-for-digestive-health/",
+    title2: "Exercises for Digestive Health"
   },
   {
     id: "2",
@@ -47,19 +49,23 @@ let projects = [
   },
   {
     id: "3",
-    company: "Ingram Micro",
-    product: "thought leadership",
-    category: "enterprise marketing",
+    company: "Medical News Today",
+    product: "patient information",
+    category: "authority",
     tests: [
       {name: "ooo", type: "bbb"}
     ],
     tags: [
-      "digital magazine",
-      "Microsoft Azure"
+      "",
+      ""
     ],
-    image: require("./images/health.png"),
-    snippet: "Ingram Micro Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
-    url0: "",
+    image: require("./images/mnt.png"),
+    snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    url0: "https://www.medicalnewstoday.com/articles/313265",
+    title0: "Everything You Need to Know About the Cerebellum",
+    url1: "https://www.medicalnewstoday.com/articles/312292",
+    title1: "What Does a Bone Marrow Biopsy Involve?"
+
   },
   {
     id: "4",
@@ -71,7 +77,7 @@ let projects = [
       {name: "lorem", type: "ipsum"}
     ],
     tags: "travel-tech",
-    image: require("./images/thought.png"),
+    image: require("./images/reward-expert.png"),
     snippet: "Reward Expert Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.rewardexpert.com/blog/homeexchange-how-travelers-can-get-free-lodging/",
     title0: "Home Exchange: How Travelers Can Get Free Lodging",
