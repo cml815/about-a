@@ -48,6 +48,7 @@ main {
 
 .projectContainer {
   grid-area: main;
+  height: 100vh;
 }
 
 .sidebar {

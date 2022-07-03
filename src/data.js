@@ -15,7 +15,9 @@ let projects = [
       "B2C",
       "health"
     ],
-    image: require("./images/thought.png")
+    image: require("./images/benefiber-aging.png"),
+    snippet: "Benefiber. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    url: "https://www.benefiber.com/fiber-in-your-life/fiber-and-wellness/aging-and-digestion/"
   },
   {
     id: "2",
@@ -31,7 +33,9 @@ let projects = [
       "B2C",
       "health"
     ],
-    image: require("./images/health.png")
+    image: require("./images/health.png"),
+    snippet: "Colgate Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    url: ""
   },
   {
     id: "3",
@@ -45,7 +49,9 @@ let projects = [
       "digital magazine",
       "Microsoft Azure"
     ],
-    image: require("./images/health.png")
+    image: require("./images/health.png"),
+    snippet: "Ingram Micro Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    url: "",
   },
   {
     id: "4",
@@ -57,7 +63,9 @@ let projects = [
       {name: "lorem", type: "ipsum"}
     ],
     tags: "travel-tech",
-    image: require("./images/thought.png")
+    image: require("./images/thought.png"),
+    snippet: "Reward Expert Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    url: ""
   }
 ]
 

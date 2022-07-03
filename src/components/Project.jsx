@@ -28,7 +28,9 @@ export function Project() {
         
         <div className={styles.container}>
           <p>Category: {project.category}</p>
-          <img src={project.image} width="400" />
+          <img src={project.image} width="800" />
+          <p>{project.snippet}</p>
+          <a href={project.url}>Visit website</a>
           
         </div>
         </main>
