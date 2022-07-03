@@ -5,7 +5,7 @@ let projects = [
     company: "Benefiber",
     theme: "#00ad42",
     product: "major brand",
-    category: "categoryXXX",
+    category: "CategoryXXX",
     tests: [
       {name: "large brand", type: "B2C"},
       {name: "name", type: "type"}
