@@ -36,30 +36,40 @@
 .sideNav {
   grid-area: sideNav;
   padding: 12px;
-  text-align: center;
   background: #81cfd9;
 }
 
 main {
-  background: #924889;
+  background: white;
   padding: 12px;
-  text-align: center;
 }
 
 .projectContainer {
   grid-area: main;
-  height: 100vh;
 }
 
 .sidebar {
   grid-area: sidebar;
-  background-color: pink;
+
 }
 
 .container {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  border: solid 1px black;
 }
 
+.urlList {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.urlList > a {
+  padding: 1rem 0;
+}
+
+.textCol {
+  font-size: 1.25em;
+  max-width: 750px;
+}
