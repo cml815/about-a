@@ -103,7 +103,7 @@ let projects = [
     //   "",
     //   ""
     // ],
-    image: require("./images/mnt.png"),
+    image: require("./images/overture.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.overtureglobal.io/story/liquid-biopsies-for-cancer-detection-move-closer-to",
     title0: "Liquid Biopsies for Cancer Detection Move Closer to Reality",
@@ -182,18 +182,16 @@ let projects = [
       {tag: "EMR"},
       {tag: "covid-19"},
     ],
-    image: require("./images/mnt.png"),
+    image: require("./images/net-health.png"),
     snippet: "Net Health Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.nethealth.com/how-employee-health-can-ease-provider-burnout/",
     title0: "How Employee Health Can Ease Provider Burnout",
     url1: "https://www.nethealth.com/6-key-performance-indicators-for-your-occupational-medicine-practice/",
     title1: "6 Key Performance Indicators for Your Occupational Medicine Practice",
-    url2: "Key COVID Indicators: Making the Case for Evolving KPIs",
+    url2: "https://www.nethealth.com/key-covid-indicators-making-the-case-for-evolving-kpis/",
     title2: "Key COVID Indicators: Making the Case for Evolving KPIs",
-    url3: "3 Ways to Keep Track of EH During COVID-19/Flu Season",
-    url0: "3 Ways to Keep Track of EH During COVID-19/Flu Season",
-    title3: "https://www.nethealth.com/3-ways-to-keep-track-of-eh-during-covid-19-flu-season/"
-
+    url3: "https://www.nethealth.com/3-ways-to-keep-track-of-eh-during-covid-19-flu-season/",
+    title3: "3 Ways to Keep Track of EH During Covid-19/Flu Season"
   },
   {
     id: "10",
