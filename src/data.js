@@ -56,10 +56,6 @@ let projects = [
       {tag: "health", type: ""},
       {tag: "web copy", type: ""}
     ],
-    // tags: [
-    //   "",
-    //   ""
-    // ],
     image: require("./images/mnt.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.medicalnewstoday.com/articles/313265",
@@ -179,25 +175,24 @@ let projects = [
   },
   {
     id: "9",
-    company: "Medical News Today",
-    product: "patient information",
+    company: "Net Health",
+    product: "conversion copy",
     category: "authority",
     tags: [
-      {tag: "TEST"},
-      {tag: "web copy"},
-      {tag: "web copy"},
-
+      {tag: "EMR"},
+      {tag: "covid-19"},
     ],
-    // tags: [
-    //   "",
-    //   ""
-    // ],
     image: require("./images/mnt.png"),
-    snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
-    url0: "https://www.medicalnewstoday.com/articles/313265",
-    title0: "Everything You Need to Know About the Cerebellum",
-    url1: "https://www.medicalnewstoday.com/articles/312292",
-    title1: "What Does a Bone Marrow Biopsy Involve?"
+    snippet: "Net Health Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    url0: "https://www.nethealth.com/how-employee-health-can-ease-provider-burnout/",
+    title0: "How Employee Health Can Ease Provider Burnout",
+    url1: "https://www.nethealth.com/6-key-performance-indicators-for-your-occupational-medicine-practice/",
+    title1: "6 Key Performance Indicators for Your Occupational Medicine Practice",
+    url2: "Key COVID Indicators: Making the Case for Evolving KPIs",
+    title2: "Key COVID Indicators: Making the Case for Evolving KPIs",
+    url3: "3 Ways to Keep Track of EH During COVID-19/Flu Season",
+    url0: "3 Ways to Keep Track of EH During COVID-19/Flu Season",
+    title3: "https://www.nethealth.com/3-ways-to-keep-track-of-eh-during-covid-19-flu-season/"
 
   },
   {
