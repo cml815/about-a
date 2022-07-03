@@ -36,7 +36,6 @@
 .sideNav {
   grid-area: sideNav;
   padding: 12px;
-  background: #81cfd9;
 }
 
 main {

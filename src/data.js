@@ -36,7 +36,7 @@ let projects = [
       "B2C",
       "health"
     ],
-    image: require("./images/health.png"),
+    image: require("./images/colgate.png"),
     snippet: "Colgate Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.colgate.com/en-us/oral-health/bad-breath/how-to-help-bad-breath-go-away-under-stress",
     title0: "How to Get Rid of Stress-Induced Bad Breath",
@@ -59,7 +59,7 @@ let projects = [
     ],
     image: require("./images/health.png"),
     snippet: "Ingram Micro Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
-    url: "",
+    url0: "",
   },
   {
     id: "4",
@@ -73,7 +73,19 @@ let projects = [
     tags: "travel-tech",
     image: require("./images/thought.png"),
     snippet: "Reward Expert Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
-    url: ""
+    url0: "https://www.rewardexpert.com/blog/homeexchange-how-travelers-can-get-free-lodging/",
+    title0: "Home Exchange: How Travelers Can Get Free Lodging",
+    url1: "https://www.rewardexpert.com/blog/vacatia-family-friendly-resort-rentals/",
+    title1: "Vacatia: Family-Friendly Resort Rentals",
+    url2: "https://www.rewardexpert.com/blog/rome2rio-have-the-freedom-to-not-plan-ahead/",
+    title2: "Rome2rio: Have the Freedom to Not Plan Ahead",
+    url3: "https://www.rewardexpert.com/blog/transit-an-easier-way-to-navigate-public-transportation/",
+    title3: "Transit: An Easier Way to Navigate Public Transportation",
+    url4: "https://www.rewardexpert.com/blog/gateguru-the-yelp-of-airports/",
+    title4: "Gate Guru: the Yelp of Airports",
+    url5: "https://www.rewardexpert.com/blog/airport-layovers-dont-need-to-be-boring-anymore-with-zipcar/",
+    title5: "Airport Layovers Don’t Need to Be Boring Anymore with Zipcar"
+
   }
 ]
 
