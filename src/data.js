@@ -6,15 +6,15 @@ let projects = [
     theme: "#00ad42",
     product: "major brand",
     category: "CategoryXXX",
-    tests: [
-      {name: "large brand", type: "B2C"},
-      {name: "name", type: "type"}
-    ],
     tags: [
-      "tagXXX",
-      "B2C",
-      "health"
+      {tag: "health", type: ""},
+      {tag: "web copy", type: ""}
     ],
+    // tags: [
+    //   "tagXXX",
+    //   "B2C",
+    //   "health"
+    // ],
     image: require("./images/benefiber-aging.png"),
     snippet: "Benefiber. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     title0: "Aging and Digestion",
@@ -29,9 +29,9 @@ let projects = [
     company: "Colgate",
     product: "major brand",
     category: "copywriting",
-    tests: [
-      {name: "large brand", type: "B2C"},
-      {name: "whatev", type: "B"}
+    tags: [
+      {tag: "health", type: ""},
+      {tag: "web copy", type: ""}
     ],
     tags: [
       "large brand",
@@ -52,13 +52,14 @@ let projects = [
     company: "Medical News Today",
     product: "patient information",
     category: "authority",
-    tests: [
-      {name: "ooo", type: "bbb"}
-    ],
     tags: [
-      "",
-      ""
+      {tag: "health", type: ""},
+      {tag: "web copy", type: ""}
     ],
+    // tags: [
+    //   "",
+    //   ""
+    // ],
     image: require("./images/mnt.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.medicalnewstoday.com/articles/313265",
@@ -72,11 +73,11 @@ let projects = [
     company: "Reward Expert",
     product: "founder interviews",
     category: "SEO content",
-    tests: [
-      {name: "cookie", type: "stop"},
-      {name: "lorem", type: "ipsum"}
+    tags: [
+      {tag: "health", type: ""},
+      {tag: "web copy", type: ""}
     ],
-    tags: "travel-tech",
+    // tags: "travel-tech",
     image: require("./images/reward-expert.png"),
     snippet: "Reward Expert Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.rewardexpert.com/blog/homeexchange-how-travelers-can-get-free-lodging/",
@@ -98,13 +99,14 @@ let projects = [
     company: "Overture / Johnson & Johnson",
     product: "medical writing",
     category: "too many cats",
-    tests: [
-      {name: "ooo", type: "bbb"}
-    ],
     tags: [
-      "",
-      ""
+      {tag: "health", type: ""},
+      {tag: "web copy", type: ""}
     ],
+    // tags: [
+    //   "",
+    //   ""
+    // ],
     image: require("./images/mnt.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.overtureglobal.io/story/liquid-biopsies-for-cancer-detection-move-closer-to",
@@ -118,13 +120,14 @@ let projects = [
     company: "Blank",
     product: "patient information",
     category: "authority",
-    tests: [
-      {name: "ooo", type: "bbb"}
-    ],
     tags: [
-      "",
-      ""
+      {tag: "health", type: ""},
+      {tag: "web copy", type: ""}
     ],
+    // tags: [
+    //   "",
+    //   ""
+    // ],
     image: require("./images/overture.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.medicalnewstoday.com/articles/313265",
@@ -137,13 +140,14 @@ let projects = [
     company: "Medical News Today",
     product: "patient information",
     category: "authority",
-    tests: [
-      {name: "ooo", type: "bbb"}
-    ],
     tags: [
-      "",
-      ""
+      {tag: "health", type: ""},
+      {tag: "web copy", type: ""}
     ],
+    // tags: [
+    //   "",
+    //   ""
+    // ],
     image: require("./images/mnt.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.medicalnewstoday.com/articles/313265",
@@ -157,13 +161,14 @@ let projects = [
     company: "Medical News Today",
     product: "patient information",
     category: "authority",
-    tests: [
-      {name: "ooo", type: "bbb"}
-    ],
     tags: [
-      "",
-      ""
+      {tag: "health", type: ""},
+      {tag: "web copy", type: ""}
     ],
+    // tags: [
+    //   "",
+    //   ""
+    // ],
     image: require("./images/mnt.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.medicalnewstoday.com/articles/313265",
@@ -177,13 +182,16 @@ let projects = [
     company: "Medical News Today",
     product: "patient information",
     category: "authority",
-    tests: [
-      {name: "ooo", type: "bbb"}
-    ],
     tags: [
-      "",
-      ""
+      {tag: "TEST"},
+      {tag: "web copy"},
+      {tag: "web copy"},
+
     ],
+    // tags: [
+    //   "",
+    //   ""
+    // ],
     image: require("./images/mnt.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
     url0: "https://www.medicalnewstoday.com/articles/313265",
@@ -194,15 +202,12 @@ let projects = [
   },
   {
     id: "10",
-    company: "Medical News Today",
+    company: "Last Sample",
     product: "patient information",
     category: "authority",
-    tests: [
-      {name: "ooo", type: "bbb"}
-    ],
     tags: [
-      "",
-      ""
+      {tag: "health"},
+      {tag: "web copy"}
     ],
     image: require("./images/mnt.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",

@@ -72,10 +72,10 @@ export function Projects () {
                   {/* <ul className="flex-c tag">
                     <li className="tags">Tags: {projects.tags}</li>
                   </ul> */}
-                  <div>
-                    {projects.tests.map((test, i) => (
+                  <div className="flex">
+                    {projects.tags.map((tags, i) => (
                       <p key={i}>
-                        {test.name} typed {test.type}
+                        <span className="tag">{tags.tag}</span>
                       </p>
                     ))}
                   </div>
