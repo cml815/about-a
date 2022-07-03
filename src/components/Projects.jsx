@@ -83,7 +83,7 @@ export function Projects () {
                   to={`/projects/${projects.company}`}
                   key={projects.company}
                   >
-                    <h4>{projects.company}</h4>
+                    <h4>{projects.company}<span className="arrow">&rarr;</span></h4>
                   </Link>
                 </div>
                 </li>
