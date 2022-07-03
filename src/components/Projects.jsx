@@ -38,12 +38,12 @@ export function Projects () {
             }}
           />
           {projects
-            .filter((project) => {
-              let filter = searchParams.get("filter");
-              if (!filter) return true;
-              let name = project.name.toLowerCase();
-              return name.startsWith(filter.toLowerCase());
-            })
+            // .filter((project) => {
+            //   let filter = searchParams.get("filter");
+            //   if (!filter) return true;
+            //   let name = project.name.toLowerCase();
+            //   return name.startsWith(filter.toLowerCase());
+            // })
             .map((project) => (
               <NavLink
                 style={({ isActive }) => ({
