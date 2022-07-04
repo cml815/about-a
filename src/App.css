@@ -87,6 +87,14 @@
   padding: 1rem 0;
   width: 100vw;
 }
+@media (min-width: 800px) {
+  .projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
 
 .glitch {
   font-size: 4rem;

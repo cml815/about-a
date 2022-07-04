@@ -109,12 +109,11 @@ let projects = [
     title0: "Liquid Biopsies for Cancer Detection Move Closer to Reality",
     url1: "",
     title1: ""
-
   },
   {
     id: "6",
-    company: "Blank",
-    product: "patient information",
+    company: "DriversEd",
+    product: "conversion",
     category: "authority",
     tags: [
       {tag: "health", type: ""},
@@ -124,16 +123,16 @@ let projects = [
     //   "",
     //   ""
     // ],
-    image: require("./images/overture.png"),
+    image: require("./images/driversed.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
-    url0: "https://www.medicalnewstoday.com/articles/313265",
-    title0: "Everything You Need to Know About the Cerebellum",
+    url0: "https://driversed.com/trending/ten-driving-mistakes-you-dont-know-youre-making/",
+    title0: "Ten Driving Mistakes You Don’t Know You’re Making",
     url1: "https://www.medicalnewstoday.com/articles/312292",
     title1: "What Does a Bone Marrow Biopsy Involve?"
   },
   {
     id: "7",
-    company: "Medical News Today",
+    company: "I Drive Safely",
     product: "patient information",
     category: "authority",
     tags: [
@@ -144,10 +143,10 @@ let projects = [
     //   "",
     //   ""
     // ],
-    image: require("./images/mnt.png"),
+    image: require("./images/idrivesafely.png"),
     snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
-    url0: "https://www.medicalnewstoday.com/articles/313265",
-    title0: "Everything You Need to Know About the Cerebellum",
+    url0: "https://www.idrivesafely.com/defensive-driving/trending/tips-and-tricks-become-safer-and-more-confident-driver",
+    title0: "Tips and Tricks to Become a Safer and More Confident Driver",
     url1: "https://www.medicalnewstoday.com/articles/312292",
     title1: "What Does a Bone Marrow Biopsy Involve?"
 
@@ -171,7 +170,6 @@ let projects = [
     title0: "Everything You Need to Know About the Cerebellum",
     url1: "https://www.medicalnewstoday.com/articles/312292",
     title1: "What Does a Bone Marrow Biopsy Involve?"
-
   },
   {
     id: "9",
@@ -195,21 +193,52 @@ let projects = [
   },
   {
     id: "10",
-    company: "Last Sample",
+    company: "Aceable",
     product: "patient information",
     category: "authority",
     tags: [
       {tag: "health"},
       {tag: "web copy"}
     ],
-    image: require("./images/mnt.png"),
-    snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
-    url0: "https://www.medicalnewstoday.com/articles/313265",
-    title0: "Everything You Need to Know About the Cerebellum",
+    image: require("./images/aceable.png"),
+    snippet: "Aceable Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    url0: "https://www.aceable.com/blog/what-keep-your-cars-emergency-kit-winter/",
+    title0: "What to Keep in Your Car's Emergency Kit",
     url1: "https://www.medicalnewstoday.com/articles/312292",
     title1: "What Does a Bone Marrow Biopsy Involve?"
 
   },
+  {
+    id: "11",
+    company: "T2",
+    product: "case study",
+    category: "authority",
+    tags: [
+      {tag: "AWS migration"},
+      {tag: "web copy"}
+    ],
+    image: require("./images/t2.png"),
+    snippet: "Aceable Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    url0: "https://t2tech.us/client-stories/",
+    title0: "AWS Migration",
+  },
+  {
+    id: "12",
+    company: "Talkatoo",
+    product: "case study",
+    category: "authority",
+    tags: [
+      {tag: "software"},
+      {tag: "dictation"},
+      {tag: "vet practice"}
+    ],
+    image: require("./images/talkatoo.png"),
+    snippet: "Aceable Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    url0: "https://talkatoo.com/news/category/case-studies/",
+    title0: "Dictation Software Helps Vet Practice",
+  },
+  
+  
 ]
 
 export function getProjects () {
