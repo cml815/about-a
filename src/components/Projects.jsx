@@ -11,16 +11,17 @@ export function Projects () {
     <div className="projects-wrapper">
       <section className="bg-dark hero flex-c">
       <p className="caption-top xl">technical &amp; medical</p>
+      <div className="glitch">Writer</div>
       <div class="glitch flex-c"> 
-        <div className="line">Writer</div>
-        <div className="line">Writer</div>
-        <div className="line">Writer</div>
-        <div className="line">Writer</div>
-        <div className="line">Writer</div>
-        <div className="line">Writer</div>
-        <div className="line">Writer</div>
-        <div className="line">Writer</div>
-        <div className="line">Writer</div>
+        <div className="line">Web Designer</div>
+        <div className="line">Web Designer</div>
+        <div className="line">Web Designer</div>
+        <div className="line">Web Designer</div>
+        <div className="line">Web Designer</div>
+        <div className="line">Web Designer</div>
+        <div className="line">Web Designer</div>
+        <div className="line">Web Designer</div>
+        <div className="line">Web Designer</div>
       </div>
       <p className="center gradient xl">caroline leopold</p> 
       </section>
