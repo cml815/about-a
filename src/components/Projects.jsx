@@ -68,7 +68,9 @@ export function Projects () {
                     <div className="container">
                       <p className="label">{projects.product}</p>
                     </div>
-                  <img className="cardImage" src={projects.image} alt="project image" /> 
+      
+
+                  <img className="cardImage" src={projects.image} alt="project image" />
                   {/* <ul className="flex-c tag">
                     <li className="tags">Tags: {projects.tags}</li>
                   </ul> */}

@@ -54,6 +54,12 @@
   border-radius: 0.5rem;
 }
 
+.cardImage {
+  /* border: rgb(129, 129, 129) solid 0.5px; */
+  background-size:cover;
+  background-repeat:none;
+}
+
 .cardLinks {
   background-color: yellow;
 }
