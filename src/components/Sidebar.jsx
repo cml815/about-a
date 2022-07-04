@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import { getProjects } from "../data";
 
 export default function Sidebar() {
@@ -11,6 +11,7 @@ export default function Sidebar() {
           padding: "1rem",
         }}
       >
+          <a href="/">All Projects</a>
         {projects.map((project) => (
           <NavLink
             style={({ isActive }) => {
