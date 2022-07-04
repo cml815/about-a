@@ -32,12 +32,12 @@ export function Project() {
           <p className={styles.textCol}>{project.snippet}</p>
           <h3>Read on {project.company}'s website</h3>
           <div className={styles.urlList}>
-            <a href={project.url0}>{project.title0}</a>
-            <a href={project.url1}>{project.title1}</a>
-            <a href={project.url2}>{project.title2}</a>  
-            <a href={project.url3}>{project.title3}</a>
-            <a href={project.url4}>{project.title4}</a>
-            <a href={project.url5}>{project.title5}</a>   
+            <a href={project.url0} target="_blank">{project.title0}</a>
+            <a href={project.url1} target="_blank">{project.title1}</a>
+            <a href={project.url2} target="_blank">{project.title2}</a>  
+            <a href={project.url3} target="_blank">{project.title3}</a>
+            <a href={project.url4} target="_blank">{project.title4}</a>
+            <a href={project.url5} target="_blank">{project.title5}</a>   
             <a href={project.url6}>{project.title6}</a>          
           </div>
           
