@@ -69,6 +69,13 @@ a:visited {
   color:rgb(102, 12, 237)
 }
 
+blockquote {
+  max-width: 500px;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
   padding: 0 .5rem;
 }

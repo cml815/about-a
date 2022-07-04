@@ -17,6 +17,7 @@ let projects = [
     // ],
     image: require("./images/benefiber-aging.png"),
     snippet: "Benefiber launched a campaign to position the fiber supplement as top-of-mind for active people. I wrote a series of articles on Benefiber's website.",
+    excerpt: "As we age, there are factors that contribute to the slowing of the digestive system. Occasional constipation is more common because of low-fiber diets, sedentary lifestyle, lack of exercise, and not drinking enough fluids.1 Medications can also affect the digestive system, especially as people grow older and establish new medication routines. Though there's nothing we can do to prevent aging, eating a healthy diet, drinking plenty of water, and getting regular exercise are some of the things we can do to prevent digestive problems.",
     title0: "Aging and Digestion",
     title1: "What Does the Gut-Brain Connection Mean",
     url0: "https://www.benefiber.com/fiber-in-your-life/fiber-and-wellness/aging-and-digestion/",
@@ -73,6 +74,7 @@ let projects = [
     // tags: "travel-tech",
     image: require("./images/reward-expert.png"),
     snippet: "Reward Expert's active content creation and SEO has placed the website among the top in its category. As a way of building relationships, the site published interviews of CEOs of growing travel tech startups.<br> I interviewed and wrote stories on 30+ startups, including ones featured in Mashable, TechCrunch,and Fast Company.",
+    excerpt: "",
     url0: "https://www.rewardexpert.com/blog/homeexchange-how-travelers-can-get-free-lodging/",
     title0: "Home Exchange: How Travelers Can Get Free Lodging",
     url1: "https://www.rewardexpert.com/blog/vacatia-family-friendly-resort-rentals/",
@@ -89,8 +91,8 @@ let projects = [
   },
   {
     id: "5",
-    company: "Overture / Johnson & Johnson",
-    product: "biotech investment news",
+    company: "Johnson & Johnson",
+    product: "biotech news",
     category: "magazine",
     tags: [
       {tag: "biotech", type: ""},
@@ -102,6 +104,7 @@ let projects = [
     // ],
     image: require("./images/overture.png"),
     snippet: "Johnson & Johnson sponsored this article on technology to detect cancer more quickly.",
+    excerpt: "IMAGINE IF DIAGNOSING CANCER WAS AS simple as a blood test. Dubbed “liquid biopsies,” they analyze the proteins and DNA of cancerous tumors that circulate within the blood. They could allow for an earlier diagnosis, which gives patients the best chance to beat cancer and live longer.",
     url0: "https://www.overtureglobal.io/story/liquid-biopsies-for-cancer-detection-move-closer-to",
     title0: "Liquid Biopsies for Cancer Detection Move Closer to Reality",
     url1: "",
@@ -130,22 +133,7 @@ let projects = [
     title2: "Tips and Tricks to Become a Safer and More Confident Driver",
 
   },
-  {
-    id: "8",
-    company: "Medical News Today",
-    product: "patient information",
-    category: "authority",
-    tags: [
-      {tag: "health", type: ""},
-      {tag: "web copy", type: ""}
-    ],
-    image: require("./images/mnt.png"),
-    snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
-    url0: "https://www.medicalnewstoday.com/articles/313265",
-    title0: "Everything You Need to Know About the Cerebellum",
-    url1: "https://www.medicalnewstoday.com/articles/312292",
-    title1: "What Does a Bone Marrow Biopsy Involve?"
-  },
+  
   {
     id: "9",
     company: "Net Health",

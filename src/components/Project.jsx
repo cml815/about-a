@@ -30,9 +30,10 @@ export function Project() {
           <p>Category: {project.category}</p>
           <img src={project.image} width="800" />
           <p className={styles.textCol}>{project.snippet}</p>
+          <a href={project.url0} target="_blank">{project.title0}</a>
+           <blockquote className="excerpt"><span className="xl">&#8220;&nbsp;</span>{project.excerpt}...<span className="xl">&nbsp;&#8221;</span></blockquote>
           <h3>Read on {project.company}'s website</h3>
           <div className={styles.urlList}>
-            <a href={project.url0} target="_blank">{project.title0}</a>
             <a href={project.url1} target="_blank">{project.title1}</a>
             <a href={project.url2} target="_blank">{project.title2}</a>  
             <a href={project.url3} target="_blank">{project.title3}</a>
