@@ -16,7 +16,7 @@ let projects = [
     //   "health"
     // ],
     image: require("./images/benefiber-aging.png"),
-    snippet: "Benefiber launched a campaign to position the fiber supplement as top-of-mind for active people. I wrote a series of articles on Benefiber's website",
+    snippet: "Benefiber launched a campaign to position the fiber supplement as top-of-mind for active people. I wrote a series of articles on Benefiber's website.",
     title0: "Aging and Digestion",
     title1: "What Does the Gut-Brain Connection Mean",
     url0: "https://www.benefiber.com/fiber-in-your-life/fiber-and-wellness/aging-and-digestion/",
@@ -52,7 +52,7 @@ let projects = [
       {tag: "E-A-T", type: ""}
     ],
     image: require("./images/mnt.png"),
-    snippet: "Medical News Today Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget nulla. In fermentum posuere urna nec tincidunt praesent semper.",
+    snippet: "Medical News Today, part of Health Line, is a major provider of medical information to consumers. I was hired for my medical writing experience. Health articles I wrote are carefully researched and written to present a neutral, but authoritative tone.",
     url0: "https://www.medicalnewstoday.com/articles/313265",
     title0: "Everything You Need to Know About the Cerebellum",
     url1: "https://www.medicalnewstoday.com/articles/312292",
@@ -194,8 +194,7 @@ let projects = [
     snippet: "Talkatoo has great word-of-month from vets who love the dictation software. As a writer, I was asked to convert a video interview into a compelling case study.",
     url0: "https://talkatoo.com/news/category/case-studies/",
     title0: "Dictation Software Helps Vet Practice",
-  },
-  
+  }, 
   
 ]
 
