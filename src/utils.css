@@ -33,6 +33,16 @@
   flex-direction: column;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
+/* .flex-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+
 .arrow {
   font-size: 1.25rem;
   font-weight: normal;

@@ -24,9 +24,11 @@ export function Projects () {
         <div className="line">Web Designer</div>
       </div>
       <p className="center gradient xl">caroline leopold</p> 
+
       </section>
+      <h1>Portfolio</h1>
         <header className="">
-          <h1>Portfolio</h1>
+          <div className="flex-c">
           <input
             value={searchParams.get("filter") || ""}
             onChange={(event) => {
@@ -38,6 +40,7 @@ export function Projects () {
               }
             }}
           />
+          </div>
           {projects
             .filter((project) => {
               let filter = searchParams.get("filter");
@@ -46,9 +49,10 @@ export function Projects () {
               return category.startsWith(filter.toLowerCase());
             })
             .map((project) => (
-              <NavLink
+              <div className="inline-flex">
+              <NavLink className="label"
                 style={({ isActive }) => ({
-                  display: "block",
+                  display: "inline-flex",
                   margin: "1rem 0",
                   color: isActive ? "red" : "",
                 })}
@@ -57,6 +61,7 @@ export function Projects () {
               >
                 {project.category}
               </NavLink>
+              </div>
             ))}
         </header>
         <div className="autoGrid">
