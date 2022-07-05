@@ -183,8 +183,25 @@ let projects = [
     url0: "https://talkatoo.com/news/category/case-studies/",
     title0: "Dictation Software Helps Vet Practice",
   }, 
+  {
+    id: "13",
+    company: "Business Insider",
+    product: "startup profile",
+    category: "media relations",
+    tags: [
+      {tag: "automotive"},
+    ],
+    image: require("./images/sparrow.webp"),
+    snippet: "A profile I wrote on an edgy automotive startup was picked up and syndicated by Business Insider.",
+    excerpt: "The Electrameccanica Sparrow is among the new contenders vying in the electric car market. This single-user vehicle with three wheels and odd shape is made in B.C. has gotten notice on Vancouver roads. ElectraMeccanica chief executive Jerry Kroll is confident that an oddly-shaped, three-wheeled electric vehicle will please Canada drivers and drum up big profits.",
+    url0: "https://www.businessinsider.com/this-3-wheeled-electric-car-is-the-volkswagen-beetle-of-the-21st-century-2015-7",
+    title0: "This 3-wheeled electric car is the 'Volkswagen Beetle of the 21st century'",
+  }
+
   
 ]
+
+
 
 export function getProjects () {
   return projects;
