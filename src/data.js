@@ -205,8 +205,6 @@ let projects = [
   
 ]
 
-
-
 export function getProjects () {
   return projects;
 } 
@@ -219,3 +217,6 @@ export function getProject(company) {
   return projects.find(project => project.company === company);
 }
 
+export function getCategory(category) {
+  return projects.find(project => project.category === category);
+}
