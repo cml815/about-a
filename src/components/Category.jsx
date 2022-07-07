@@ -4,15 +4,15 @@ import "../utils.css";
 import styles from './Project.module.css'
 import "../App.css";
 import Sidebar from './Sidebar';
-import { getCategory } from '../data';
+import { getProject } from '../data';
 
-export function Category() {
+export function Category () {
   let params = useParams();
-  let category = getCategory(params.projectId);
+  let project = getProject(params.projectId);
   return (
     <>
-      <h2>This is a category page. In progress..</h2>
-      <p>{category}</p>
+    
+      <p>Category page</p>
     </>
   )
   
