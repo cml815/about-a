@@ -4,7 +4,7 @@ let projects = [
     id: "1",
     company: "Benefiber",
     theme: "#00ad42",
-    product: "major brand",
+    product: "branding",
     category: "campaign",
     tags: [
       {tag: "health", type: ""},
@@ -28,7 +28,7 @@ let projects = [
   {
     id: "2",
     company: "Colgate®",
-    product: "major brand",
+    product: "branding",
     category: "campaign",
     tags: [
       {tag: "health", type: ""},
@@ -94,7 +94,7 @@ let projects = [
   {
     id: "5",
     company: "Johnson & Johnson",
-    product: "biotech news",
+    product: "biotech",
     category: "magazine",
     tags: [
       {tag: "biotech", type: ""},
@@ -115,7 +115,7 @@ let projects = [
   {
     id: "6",
     company: "Aceable",
-    product: "pillar content",
+    product: "pillar",
     category: "SEO",
     tags: [
       {tag: "ecommerce", type: ""},
@@ -161,7 +161,7 @@ let projects = [
   {
     id: "11",
     company: "T2",
-    product: "case study",
+    product: "case story",
     category: "lead generation",
     tags: [
       {tag: "AWS migration"},
