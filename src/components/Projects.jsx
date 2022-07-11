@@ -9,21 +9,11 @@ export function Projects () {
   let [searchParams, setSearchParams] = useSearchParams();
    return (
     <div className="projects-wrapper">
-      <section className="bg-dark hero flex-c">
+      <section className="hero flex-c">
       <p className="caption-top xl">technical &amp; medical</p>
-      <div className="glitch">Writer</div>
-      <div class="glitch flex-c"> 
-        <div className="line">Web Designer</div>
-        <div className="line">Web Designer</div>
-        <div className="line">Web Designer</div>
-        <div className="line">Web Designer</div>
-        <div className="line">Web Designer</div>
-        <div className="line">Web Designer</div>
-        <div className="line">Web Designer</div>
-        <div className="line">Web Designer</div>
-        <div className="line">Web Designer</div>
-      </div>
-      <p className="center gradient xl">caroline leopold</p> 
+      <h2>Writer</h2>
+  
+      <p className="center xl">caroline leopold</p> 
 
       </section>
       <h1>Portfolio</h1>

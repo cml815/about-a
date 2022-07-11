@@ -13,8 +13,8 @@
 }
 
 .hero {
-  background: repeating-linear-gradient(0deg, #1c1c1c 25%, #0E0D0E 50%, #171819 50%, #171819 75%);
-  background-size: 10px 10px;
+  /* background: repeating-linear-gradient(0deg, #1c1c1c 25%, #0E0D0E 50%, #171819 50%, #171819 75%);
+  background-size: 20px 10px; */
   height: 75vh;
   overflow: hidden;
   display: flex;
