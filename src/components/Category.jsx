@@ -12,7 +12,8 @@ export function Category () {
   return (
     <>
     
-      <p>Category page</p>
+      <p>{params.projectId}</p>
+      <p></p>
     </>
   )
   

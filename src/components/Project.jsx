@@ -5,7 +5,6 @@ import styles from './Project.module.css'
 import "../App.css";
 import Sidebar from './Sidebar';
 import { getProject } from '../data';
-import ProjectImage from './ProjectImage';
 
 export function Project() {
   let params = useParams();

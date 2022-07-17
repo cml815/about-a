@@ -201,7 +201,6 @@ let projects = [
     url0: "https://www.businessinsider.com/this-3-wheeled-electric-car-is-the-volkswagen-beetle-of-the-21st-century-2015-7",
     title0: "This 3-wheeled electric car is the 'Volkswagen Beetle of the 21st century'",
   }
-
   
 ]
 
