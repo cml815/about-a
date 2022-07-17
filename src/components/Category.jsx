@@ -4,15 +4,16 @@ import "../utils.css";
 import styles from './Project.module.css'
 import "../App.css";
 import Sidebar from './Sidebar';
-import { getProject } from '../data';
+import { getCategory } from '../data';
 
 export function Category () {
   let params = useParams();
-  let project = getProject(params.projectId);
+  let category = getCategory(params.projectId);
   return (
     <>
     
-      <p>{params.projectId}</p>
+      <h2>{params.projectId}</h2>
+      <Outlet />
       <p></p>
     </>
   )

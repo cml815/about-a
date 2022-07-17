@@ -48,7 +48,7 @@ let projects = [
     id: "3",
     company: "Medical News Today",
     product: "patient information",
-    category: "authority site",
+    category: "authority",
     tags: [
       {tag: "health", type: ""},
       {tag: "E-A-T", type: ""}
@@ -68,7 +68,7 @@ let projects = [
     product: "founder interviews",
     category: "SEO",
     tags: [
-      {tag: "link building", type: ""},
+      {tag: "link-building", type: ""},
       {tag: "travel", type: ""},
       {tag: "startups", type: ""},
       {tag: "interviews", type: ""}
@@ -141,7 +141,7 @@ let projects = [
     id: "9",
     company: "Net Health",
     product: "eBooks",
-    category: "lead generation",
+    category: "lead-generation",
     tags: [
       {tag: "EMR"},
       {tag: "covid-19"},
@@ -161,8 +161,8 @@ let projects = [
   {
     id: "11",
     company: "T2",
-    product: "case story",
-    category: "lead generation",
+    product: "case-story",
+    category: "lead-generation",
     tags: [
       {tag: "AWS migration"},
       {tag: "tech"}
@@ -190,7 +190,7 @@ let projects = [
   {
     id: "13",
     company: "Business Insider",
-    product: "startup profile",
+    product: "profile",
     category: "media relations",
     tags: [
       {tag: "automotive"},
