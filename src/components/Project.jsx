@@ -43,12 +43,12 @@ export function Project() {
           
         </div>
         </main>
-        <div className={styles.sidebar}>
+        {/* <div className={styles.sidebar}>
           <p>Sidebar</p>
           <p>Sidebar</p>
           <p>Sidebar</p>
         </div>  
-      
+       */}
     </div>
     <Outlet />
     </>

@@ -1,3 +1,5 @@
+import { Categories } from "./components/Categories";
+
 let projects = [
   {
 
@@ -207,6 +209,10 @@ let projects = [
 export function getProjects () {
   return projects;
 } 
+
+export function getCategories() {
+  return Categories;
+}
 
 // export function getProject() {
 //   return projects;
