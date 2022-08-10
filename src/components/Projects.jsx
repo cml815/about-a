@@ -10,10 +10,10 @@ export function Projects () {
    return (
     <div className="projects-wrapper">
       <section className="hero flex-c">
-      <p className="caption-top xl">technical &amp; medical</p>
-      <h2>Writer</h2>
+      <p className="xxl">technical &amp; medical</p>
+      <h2 className="xxl">Writer</h2>
   
-      <p className="center xl">caroline leopold</p> 
+      <p className="center xxl">caroline leopold</p> 
 
       </section>
       <h1>Portfolio</h1>
