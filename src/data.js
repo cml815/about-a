@@ -48,7 +48,7 @@ let projects = [
   },
   {
     id: "3",
-    company: "Medical News Today",
+    company: "MedicalNewsToday",
     product: "patient information",
     category: "authority",
     tags: [
@@ -66,7 +66,7 @@ let projects = [
   },
   {
     id: "4",
-    company: "Reward Expert",
+    company: "RewardExpert",
     product: "founder interviews",
     category: "SEO",
     tags: [
@@ -95,7 +95,7 @@ let projects = [
   },
   {
     id: "5",
-    company: "Johnson & Johnson",
+    company: "Johnson-Johnson",
     product: "biotech",
     category: "magazine",
     tags: [
@@ -141,7 +141,7 @@ let projects = [
   
   {
     id: "9",
-    company: "Net Health",
+    company: "NetHealth",
     product: "eBooks",
     category: "lead-generation",
     tags: [
@@ -160,38 +160,38 @@ let projects = [
     url3: "https://www.nethealth.com/3-ways-to-keep-track-of-eh-during-covid-19-flu-season/",
     title3: "3 Ways to Keep Track of EH During Covid-19/Flu Season"
   },
-  {
-    id: "11",
-    company: "T2",
-    product: "case-story",
-    category: "lead-generation",
-    tags: [
-      {tag: "AWS migration"},
-      {tag: "tech"}
-    ],
-    image: require("./images/t2.png"),
-    snippet: "Many like read testimonials before they buy. For tech companies, buyers are often high-level specialists who prefer case studies to see how complex adoptions work in real life.",
-    url0: "https://t2tech.us/client-stories/",
-    title0: "AWS Migration",
-  },
-  {
-    id: "12",
-    company: "Talkatoo",
-    product: "case study",
-    category: "authority",
-    tags: [
-      {tag: "software"},
-      {tag: "dictation"},
-      {tag: "vet practice"}
-    ],
-    image: require("./images/talkatoo.png"),
-    snippet: "Talkatoo has great word-of-month from vets who love the dictation software. As a writer, I was asked to convert a video interview into a compelling case study.",
-    url0: "https://talkatoo.com/news/category/case-studies/",
-    title0: "Dictation Software Helps Vet Practice",
-  }, 
+  // {
+  //   id: "11",
+  //   company: "T2",
+  //   product: "case-story",
+  //   category: "lead-generation",
+  //   tags: [
+  //     {tag: "AWS migration"},
+  //     {tag: "tech"}
+  //   ],
+  //   image: require("./images/t2.png"),
+  //   snippet: "Many like read testimonials before they buy. For tech companies, buyers are often high-level specialists who prefer case studies to see how complex adoptions work in real life.",
+  //   url0: "https://t2tech.us/client-stories/",
+  //   title0: "AWS Migration",
+  // },
+  // {
+  //   id: "12",
+  //   company: "Talkatoo",
+  //   product: "case study",
+  //   category: "authority",
+  //   tags: [
+  //     {tag: "software"},
+  //     {tag: "dictation"},
+  //     {tag: "vet practice"}
+  //   ],
+  //   image: require("./images/talkatoo.png"),
+  //   snippet: "Talkatoo has great word-of-month from vets who love the dictation software. As a writer, I was asked to convert a video interview into a compelling case study.",
+  //   url0: "https://talkatoo.com/news/category/case-studies/",
+  //   title0: "Dictation Software Helps Vet Practice",
+  // }, 
   {
     id: "13",
-    company: "Business Insider",
+    company: "Insider",
     product: "profile",
     category: "media relations",
     tags: [
