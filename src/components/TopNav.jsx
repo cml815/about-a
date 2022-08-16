@@ -7,10 +7,9 @@ export default function TopNav() {
   return (
     <>
     <nav className={styles.TopNav}>
-      <Link to="/">Home</Link>
+      <Link to="/">Portfolio</Link>
       <Link to="/about">About</Link>
       <Link to="/contact">Contact</Link>
-      {/* <Link to="/about">About</Link> */}
     </nav>
     <Outlet />
     </>
