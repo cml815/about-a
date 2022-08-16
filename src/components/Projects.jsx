@@ -20,7 +20,7 @@ export function Projects () {
       </section>
       <h1><span>Portfolio</span></h1>
         <header className="">
-          <div className="flex-c">
+          {/* <div className="flex-c">
           <input
             value={searchParams.get("filter") || ""}
             onChange={(event) => {
@@ -54,7 +54,7 @@ export function Projects () {
                 {project.category}
               </NavLink>
               </div>
-            ))}
+            ))} */}
         </header>
         <div className="autoGrid">
           {projects.map((projects, index) => {
