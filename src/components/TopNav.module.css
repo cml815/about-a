@@ -1,11 +1,16 @@
 .TopNav {
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: transparent;
   text-align: right;
   padding-top: .25rem;
-  
   /* justify-content: flex-end; */
+}
+@media screen and (min-width: 500px) {
+  .TopNav {
+    flex-direction: row;
+  }
 }
 
 .TopNav > * {
