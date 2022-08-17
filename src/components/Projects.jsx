@@ -14,8 +14,14 @@ export function Projects () {
         <p className="center xxl">caroline leopold</p>
       </div> 
       <div className="bg-dark">
-        <p className="xl">technical &amp; medical</p>
-        <h2 className="xl">Writer</h2>
+        <div>
+          <p className="xl">technical,</p>
+          <p className="xl">medical &amp;</p>
+          <p className="xl">grant</p>
+        </div>
+        <div>
+        <span className="xl">Writer</span>
+        </div>
       </div>
       <div className="center">
       <h1><span>Portfolio</span></h1>
