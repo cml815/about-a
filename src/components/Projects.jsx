@@ -11,12 +11,13 @@ export function Projects () {
     <div className="projects-wrapper bg-dark">
       <section className="hero flex-c">
       <div className="">
-        <p className="xxl">Caroline Leopold is a versatile medical, marketing &amp; technology writer.</p>
+        <h1 className="">Caroline Leopold is a versatile <br />medical, marketing &amp; technology writer.</h1>
       </div> 
       <div className="center">
       <h1><span>Portfolio</span></h1>
       </div>
       </section>
+      <section className="projects-wrapper">
         <header className="">
           {/* <div className="flex-c">
           <input
@@ -91,7 +92,9 @@ export function Projects () {
           })}
           <Outlet />
         </div>
+        </section>
     </div>
 );
+
           }
 
