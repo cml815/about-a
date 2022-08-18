@@ -18,7 +18,7 @@ let projects = [
     //   "health"
     // ],
     image: require("./images/benefiber-aging.png"),
-    snippet: "Benefiber launched a campaign to position the fiber supplement as top-of-mind for active people. I wrote a series of articles on Benefiber's website.",
+    snippet: "Benefiber envisioned a content strategy to position the fiber supplement as top-of-mind for active people. As writer, I created a series of relatable and informational articles on Benefiber's website.",
     excerpt: "As we age, there are factors that contribute to the slowing of the digestive system. Occasional constipation is more common because of low-fiber diets, sedentary lifestyle, lack of exercise, and not drinking enough fluids.1 Medications can also affect the digestive system, especially as people grow older and establish new medication routines. Though there's nothing we can do to prevent aging, eating a healthy diet, drinking plenty of water, and getting regular exercise are some of the things we can do to prevent digestive problems.",
     title0: "Aging and Digestion",
     title1: "What Does the Gut-Brain Connection Mean",

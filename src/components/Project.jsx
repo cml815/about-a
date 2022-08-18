@@ -28,7 +28,10 @@ export function Project() {
         <div className={styles.container}>
           <p>Category: {project.category}</p>
           <img src={project.image} width="800" />
-          <p className={styles.textCol}>{project.snippet}</p>
+          <div className="">
+            <h2>Campaign summary</h2>
+            <p className={styles.textCol}>{project.snippet}</p>
+          </div>
           <a href={project.url0} target="_blank">{project.title0}</a>
            <blockquote className="excerpt"><span className="xl">&#8220;&nbsp;</span>{project.excerpt}...<span className="xl">&nbsp;&#8221;</span></blockquote>
           <h3>Read on {project.company}'s website</h3>
