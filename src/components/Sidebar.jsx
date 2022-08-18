@@ -11,7 +11,7 @@ export default function Sidebar() {
           padding: "1rem",
         }}
       >
-          <a href="/gi">All Projects</a>
+          <a href="/">All Projects</a>
         {projects.map((project) => (
           <NavLink
             style={({ isActive }) => {
