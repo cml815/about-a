@@ -70,3 +70,12 @@
 .bold {
   font-weight: bold;
 }
+
+.upper {
+  text-transform: uppercase;
+}
+
+.tightHeight {
+  line-height: .5rem;
+}
+

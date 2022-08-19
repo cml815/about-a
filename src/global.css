@@ -56,6 +56,10 @@ h5, h6 {
   font-size: 1.2rem;
 }
 
+p {
+  line-height: 1.5rem;
+}
+
 a {
   text-decoration: none;
   font-size: 1.25rem;
@@ -67,10 +71,9 @@ a:visited {
 }
 
 blockquote {
-  max-width: 500px;
+  max-width: 750px;
   font-size: 1.25rem;
-  line-height: 2.25rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 2rem;
 }
 
 header {

@@ -20,16 +20,16 @@ export function Project() {
         </nav>
       <main className={styles.projectContainer}>
       <div className={styles.header}>
+        {/* product is major service */}
+        <p className="upper">{project.product}</p>
         {/* project ID === company */}
-        <h2>{params.projectId}</h2>
-        {/* product category needs renaming */}
-        <p>Product: {project.product}</p>
+        <h2 className="tightHeight">{params.projectId}</h2>   
       </div>
         
         <div className={styles.container}>
-          <p>Category: {project.category}</p>
+          {/* <p>{project.category}</p> */}
           <img src={project.image} width="800" />
-          <div className="">
+          <div className={styles.summary}>
             <h2>Campaign summary</h2>
             <p className={styles.textCol}>{project.snippet}</p>
           </div>
