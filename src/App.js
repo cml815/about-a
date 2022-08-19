@@ -1,6 +1,7 @@
 import { Routes, Route, Outlet } from "react-router-dom";
 import './App.css';
 // import { TopNav } from "./components/TopNav";
+import Layout from './components/Layout';
 import { Projects } from "./components/Projects";
 import { Project } from "./components/Project";
 import { Categories } from "./components/Categories";

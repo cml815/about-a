@@ -9,13 +9,6 @@ export default function Layout() {
   return (
     <>
      <TopNav />
-    {/* <main className={styles.wrapper}>
-      <section className={styles.container}>
-        
-        
-      </section>
-  
-    </main> */}
     <Footer />
     </>
 
