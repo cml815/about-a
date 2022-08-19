@@ -69,7 +69,7 @@ h1 span {
 }
 
 .cardLinks {
-  background-color: yellow;
+  text-align: center;
 }
 
 .container {
@@ -80,12 +80,10 @@ h1 span {
   display: inline;
   text-align: left;
   border: solid 1px black;
-  background-color: pink;
-  color: black;
+  background-color: rgb(237, 68, 68);
+  color: white;
   height: 2rem;
   padding: .25rem;
-  border-radius: 10px;
-  margin: 1rem 0;
 }
 
 .tag {

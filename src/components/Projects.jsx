@@ -59,25 +59,21 @@ export function Projects () {
           {projects.map((projects, index) => {
             return (
               <>    
-              <ul className="cardContainer" role="list">
+              <div className="cardContainer" role="list">
                 <li>
                 <div className="" key={index}>
-                    <div className="container">
+                    {/* <div className="container">
                       <p className="label">{projects.product}</p>
-                    </div>
-      
-
+                    </div> */}
                   <img className="cardImage" src={projects.image} alt="project image" />
-                  {/* <ul className="flex-c tag">
-                    <li className="tags">Tags: {projects.tags}</li>
-                  </ul> */}
-                  <div className="flex">
+                  <p className="label">{projects.product}</p>
+                  {/* <div className="flex">
                     {projects.tags.map((tags, i) => (
                       <p key={i}>
                         <span className="tag">{tags.tag}</span>
                       </p>
                     ))}
-                  </div>
+                  </div> */}
                   <Link className="cardLinks"
                   to={`/projects/${projects.company}`}
                   key={projects.company}
@@ -86,7 +82,7 @@ export function Projects () {
                   </Link>
                 </div>
                 </li>
-              </ul>
+              </div>
               </>
             );
           })}
