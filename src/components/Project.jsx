@@ -13,17 +13,18 @@ export function Project() {
   return (
     <>
     <div className={styles.wrapper}>
+     
+      <nav className={styles.sideNav}>
+          <Sidebar />
+  
+        </nav>
+      <main className={styles.projectContainer}>
       <div className={styles.header}>
         {/* project ID === company */}
         <h2>{params.projectId}</h2>
         {/* product category needs renaming */}
         <p>Product: {project.product}</p>
       </div>
-      <nav className={styles.sideNav}>
-          <Sidebar />
-  
-        </nav>
-      <main className={styles.projectContainer}>
         
         <div className={styles.container}>
           <p>Category: {project.category}</p>
