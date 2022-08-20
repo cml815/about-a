@@ -10,14 +10,13 @@ export function Projects () {
    return (
     <div className="projects-wrapper bg-dark">
       <section className="hero flex-c">
-      <div className="">
+      <div className="flex-item">
         <h1 className="">Caroline Leopold is a versatile <br />medical, marketing &amp; technology writer.</h1>
-      </div> 
-      <div className="center">
-      <h1><span>Portfolio</span></h1>
       </div>
       </section>
       <section className="projects-wrapper">
+      <div className="center">
+      </div>
         <header className="">
           {/* <div className="flex-c">
           <input

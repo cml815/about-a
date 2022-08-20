@@ -16,17 +16,14 @@
 .hero {
   overflow: hidden;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
-
+@media screen and (min-width: 450px) {
 .hero > .flex-item {
-  margin: 1rem;
-  padding: 1.5rem;
   width: 50%;
 }
-
-h1 span {
-  background-color: rgb(237, 68, 68);
-  padding: .25rem 2rem;
 }
 
 .autoGrid {
