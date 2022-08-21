@@ -18,41 +18,6 @@ export function Projects () {
       <div className="center">
       </div>
         <header className="">
-          {/* <div className="flex-c">
-          <input
-            value={searchParams.get("filter") || ""}
-            onChange={(event) => {
-              let filter = event.target.value;
-              if (filter) {
-                setSearchParams({ filter });
-              } else {
-                setSearchParams({});
-              }
-            }}
-          />
-          </div>
-          {projects
-            .filter((project) => {
-              let filter = searchParams.get("filter");
-              if (!filter) return true;
-              let category = project.category.toLowerCase();
-              return category.startsWith(filter.toLowerCase());
-            })
-            .map((project) => (
-              <div className="inline-flex">
-              <NavLink className="label"
-                style={({ isActive }) => ({
-                  display: "inline-flex",
-                  margin: "1rem 0",
-                  color: isActive ? "red" : "",
-                })}
-                to={`/categories/${project.category}`}
-                key={project.id}
-              >
-                {project.category}
-              </NavLink>
-              </div>
-            ))} */}
         </header>
         <div className="autoGrid">
           {projects.map((projects, index) => {
