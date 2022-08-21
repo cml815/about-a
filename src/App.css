@@ -38,6 +38,10 @@
   background-color: rgb(42, 40, 40);
 }
 
+.image-container {
+  position: relative;
+}
+
 /* .cardContainer {
   border: solid 1px #f7f7f7;
   border-radius: 0.5rem;
@@ -81,12 +85,14 @@
 
 .label {
   display: inline;
+  position: absolute;
+  top: -16px;
+  left: 0px;
   text-align: left;
-  border: solid 1px black;
   background-color: rgb(237, 68, 68);
   color: white;
-  height: 2rem;
-  padding: .25rem;
+  height: 3rem;
+  padding: .5rem;
 }
 
 .tag {

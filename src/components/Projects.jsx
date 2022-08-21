@@ -25,7 +25,7 @@ export function Projects () {
               <>    
               <div className="cardContainer" role="list">
                 <li>
-                <div className="" key={index}>
+                <div className="image-container" key={index}>
                     {/* <div className="container">
                       <p className="label">{projects.product}</p>
                     </div> */}
