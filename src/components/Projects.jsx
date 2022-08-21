@@ -10,8 +10,8 @@ export function Projects () {
    return (
     <div className="projects-wrapper bg-dark">
       <section className="hero flex-c">
-      <div className="flex-item">
-        <h1 className="">Caroline Leopold is a versatile <br />medical, marketing &amp; technology writer.</h1>
+      <div className="text-box">
+        <h1 className="">Caroline Leopold is a freelance <br />medical, marketing &amp; technology writer.</h1>
       </div>
       </section>
       <section className="projects-wrapper">
@@ -42,7 +42,7 @@ export function Projects () {
                   to={`/projects/${projects.company}`}
                   key={projects.company}
                   >
-                    <h4>{projects.company}<span className="arrow">&rarr;</span></h4>
+                    <h4 className="cardHeadline">{projects.company}<span className="arrow">&rarr;</span></h4>
                   </Link>
                 </div>
                 </li>

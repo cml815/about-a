@@ -21,8 +21,8 @@
   height: 60vh;
 }
 @media screen and (min-width: 450px) {
-.hero > .flex-item {
-  width: 50%;
+.hero > .text-box {
+  width: 70%;
 }
 }
 
@@ -35,6 +35,7 @@
 
 .cardContainer {
   border: solid 1px black;
+  background-color: rgb(42, 40, 40);
 }
 
 /* .cardContainer {
@@ -67,6 +68,11 @@
 
 .cardLinks {
   text-align: center;
+}
+
+.cardHeadline {
+  line-height: 1rem;
+  margin: 1rem 0;
 }
 
 .container {
