@@ -6,7 +6,7 @@ import '../global.css';
 
 export function Projects () {
   let projects = getProjects();
-  let [searchParams, setSearchParams] = useSearchParams();
+  // let [searchParams, setSearchParams] = useSearchParams();
    return (
     <div className="projects-wrapper bg-dark">
       <section className="hero flex-c">
@@ -56,5 +56,5 @@ export function Projects () {
     </div>
 );
 
-          }
+}
 
