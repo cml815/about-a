@@ -42,7 +42,9 @@ export function Projects () {
                   to={`/projects/${projects.company}`}
                   key={projects.company}
                   >
+                  <figcaption className="caption">
                     <h4 className="cardHeadline">{projects.company}<span className="arrow">&rarr;</span></h4>
+                  </figcaption>
                   </Link>
                 </div>
                 </li>
