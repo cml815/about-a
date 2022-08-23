@@ -26,9 +26,11 @@ export function Project() {
         <h2 className="tightHeight">{params.projectId}</h2>   
       </div>
         
-        <div className={styles.container}>
+        <figure className={styles.container}>
           {/* <p>{project.category}</p> */}
-          <img src={project.image} width="800" />
+          <div className={styles.imgContainer}>
+            <img src={project.image} width="800" />
+          </div>
           <div className={styles.summary}>
             <h2>Campaign summary</h2>
             <p className={styles.textCol}>{project.snippet}</p>
@@ -47,7 +49,7 @@ export function Project() {
             <a href={project.url6}>{project.title6}</a>          
           </div>
           
-        </div>
+        </figure>
         </main>
         {/* <div className={styles.sidebar}>
           <p>Sidebar</p>
