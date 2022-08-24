@@ -29,8 +29,8 @@
 .autoGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: 250px;
-  gap: 4rem 4rem;
+  grid-template-rows: 350px;
+  gap: 6rem 4rem;
   /* padding: 1rem;  */
 }
 
@@ -78,6 +78,7 @@
 .cardHeadline {
   line-height: 1rem;
   margin: 1rem 0;
+  padding-bottom: 2rem;
 }
 
 .caption {

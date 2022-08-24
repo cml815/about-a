@@ -35,22 +35,9 @@ export function Projects () {
                     </div> */}
                   <img className="cardImage" src={projects.image} alt="project image" />
                   <p className="label">{projects.product}</p>
-                  {/* <div className="flex">
-                    {projects.tags.map((tags, i) => (
-                      <p key={i}>
-                        <span className="tag">{tags.tag}</span>
-                      </p>
-                    ))}
-                  </div> */}
-                  {/* <Link className="cardLinks"
-                  to={`/projects/${projects.company}`}
-                  key={projects.company}
-                  >
-                  <figcaption className="caption">
-                    <h4 className="cardHeadline">{projects.company}<span className="arrow">&rarr;</span></h4>
+                  <figcaption>
+                    <h4 className="cardHeadline">{projects.company}</h4>
                   </figcaption>
-                  </Link>
-                </div> */}
                </div>
                 </li>
                 </Link>
