@@ -5,6 +5,7 @@ let projects = [
 
     id: "1",
     company: "Benefiber",
+    slug: "benefiber",
     theme: "#00ad42",
     product: "branding",
     category: "campaign",
@@ -30,6 +31,7 @@ let projects = [
   {
     id: "2",
     company: "Colgate®",
+    slug: "colgate",
     product: "branding",
     category: "campaign",
     tags: [
@@ -48,7 +50,8 @@ let projects = [
   },
   {
     id: "3",
-    company: "MedicalNewsToday",
+    company: "Medical News Today",
+    slug: "mnt",
     product: "patient information",
     category: "authority",
     tags: [
@@ -56,7 +59,7 @@ let projects = [
       {tag: "E-A-T", type: ""}
     ],
     image: require("./images/biopsy-slide.webp"),
-    snippet: "Medical News Today, part of Health Line, is a major provider of medical information to consumers. I was hired for my medical writing experience. Health articles I wrote are carefully researched and written to present a neutral, but authoritative tone.",
+    snippet: "Medical News Today, part of the 9th most visited health site, Healthline, is a major provider of medical information to consumers. As a contract medical writer, I researched, wrote, and cited balanced articles for patient audiences.",
     excerpt: "The cerebellum helps a person drive, throw a ball, or walk across the room...This article explains the anatomy, functions, and possible disorders of the cerebellum. It will also offer tips on preserving brain health.",
     url0: "https://www.medicalnewstoday.com/articles/313265",
     title0: "Everything You Need to Know About the Cerebellum",
@@ -67,6 +70,7 @@ let projects = [
   {
     id: "4",
     company: "RewardExpert",
+    slug: "rewardexpert",
     product: "founder interviews",
     category: "SEO",
     tags: [
@@ -95,7 +99,8 @@ let projects = [
   },
   {
     id: "5",
-    company: "Johnson-Johnson",
+    company: "Overture for Johnson and Johnson",
+    slug: "overture",
     product: "biotech",
     category: "magazine",
     tags: [
@@ -117,6 +122,7 @@ let projects = [
   {
     id: "6",
     company: "Aceable",
+    slug: "aceable",
     product: "pillar",
     category: "SEO",
     tags: [
@@ -141,7 +147,8 @@ let projects = [
   
   {
     id: "9",
-    company: "NetHealth",
+    company: "Net Health",
+    slug: "net-health",
     product: "eBooks",
     category: "lead-generation",
     tags: [
@@ -191,7 +198,8 @@ let projects = [
   // }, 
   {
     id: "13",
-    company: "Insider",
+    company: "Business Insider",
+    slug: "business-insider",
     product: "profile",
     category: "media relations",
     tags: [

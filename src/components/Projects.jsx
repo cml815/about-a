@@ -25,8 +25,8 @@ export function Projects () {
               <>    
               <div className="cardContainer" role="list">
               <Link className="cardLinks"
-                  to={`/projects/${projects.company}`}
-                  key={projects.company}
+                  to={`/projects/${projects.slug}`}
+                  key={projects.slug}
                   >
                 <li>
                 <div className="image-container" key={index}>
