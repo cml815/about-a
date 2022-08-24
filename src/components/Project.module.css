@@ -15,10 +15,9 @@
       "header  header header header"
       "sideNav main main main"
       "sideNav main main main"
-      "sidebar sidebar sidebar sidebar";
   }
 }
-  @media (min-width: 700px) {
+  /* @media (min-width: 700px) {
     .wrapper {
       grid-template-columns: repeat(6, 1fr);
       grid-template-areas:
@@ -26,11 +25,11 @@
         "sideNav main main main main main"
         "sideNav main main main main main";
      }
-  }
+  } */
   
 .header {
   grid-area: header;
-  width: 100vw;
+  width: 100%;
   padding: 1rem 0;
 }
 

@@ -1,5 +1,5 @@
 .projects-wrapper {
-  width: 100vw;
+  width: 100%;
   background-color: #efefef;
   padding-top: 1rem;
 }
@@ -111,7 +111,7 @@
 .projectContainer {
   display: block;
   padding: 1rem 0;
-  width: 100vw;
+  width: 100%;
 }
 @media (min-width: 800px) {
   .projectContainer {
