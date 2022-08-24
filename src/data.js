@@ -17,7 +17,7 @@ let projects = [
     //   "B2C",
     //   "health"
     // ],
-    image: require("./images/benefiber-aging.png"),
+    image: require("./images/benefiber-garden-1400-65.jpg"),
     snippet: "Benefiber envisioned a content strategy to position the fiber supplement as top-of-mind for active people. As writer, I created a series of relatable and informational articles on Benefiber's website.",
     excerpt: "As we age, there are factors that contribute to the slowing of the digestive system...Though there's nothing we can do to prevent aging, eating a healthy diet, drinking plenty of water, and getting regular exercise are some of the things we can do to prevent digestive problems.",
     title0: "Aging and Digestion",
