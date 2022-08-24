@@ -24,6 +24,10 @@ export function Projects () {
             return (
               <>    
               <div className="cardContainer" role="list">
+              <Link className="cardLinks"
+                  to={`/projects/${projects.company}`}
+                  key={projects.company}
+                  >
                 <li>
                 <div className="image-container" key={index}>
                     {/* <div className="container">
@@ -38,7 +42,7 @@ export function Projects () {
                       </p>
                     ))}
                   </div> */}
-                  <Link className="cardLinks"
+                  {/* <Link className="cardLinks"
                   to={`/projects/${projects.company}`}
                   key={projects.company}
                   >
@@ -46,8 +50,10 @@ export function Projects () {
                     <h4 className="cardHeadline">{projects.company}<span className="arrow">&rarr;</span></h4>
                   </figcaption>
                   </Link>
-                </div>
+                </div> */}
+               </div>
                 </li>
+                </Link>
               </div>
               </>
             );
