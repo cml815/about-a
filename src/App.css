@@ -1,6 +1,6 @@
 .projects-wrapper {
   width: 100vw;
-  background-color: #e27357;
+  background-color: #efefef;
   padding-top: 1rem;
 }
 
@@ -30,13 +30,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: 250px;
-  gap: 2rem;
+  gap: 4rem 4rem;
   /* padding: 1rem;  */
 }
 
 .cardContainer {
   border: solid 1px black;
-  background-color: rgb(42, 40, 40);
+  background-color: white;
 }
 
 .image-container {
