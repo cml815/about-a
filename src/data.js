@@ -55,7 +55,7 @@ let projects = [
       {tag: "health", type: ""},
       {tag: "E-A-T", type: ""}
     ],
-    image: require("./images/mnt.png"),
+    image: require("./images/biopsy-slide.webp"),
     snippet: "Medical News Today, part of Health Line, is a major provider of medical information to consumers. I was hired for my medical writing experience. Health articles I wrote are carefully researched and written to present a neutral, but authoritative tone.",
     excerpt: "The cerebellum helps a person drive, throw a ball, or walk across the room...This article explains the anatomy, functions, and possible disorders of the cerebellum. It will also offer tips on preserving brain health.",
     url0: "https://www.medicalnewstoday.com/articles/313265",
