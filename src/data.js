@@ -36,7 +36,7 @@ let projects = [
       {tag: "health", type: ""},
       {tag: "relatable", type: ""}
     ],
-    image: require("./images/colgate.png"),
+    image: require("./images/braces-640.360.jpg"),
     snippet: "Colgate® used a content strategy to make the oral health line more relatable and trustworthy. What the do especially well is offering authoritative information and product information in one place.",
     excerpt: "[T]here are actions you can take to prevent bad breath the next time you're under pressure from a first date, a job interview, an important meeting, giving a speech at the Oscars, or your next rocket launch (while wearing a space helmet, good breath is imperative). So sit back, relax, and calm those nerves, because we have a few tips and tricks that may be able to help you.",
     url0: "https://www.colgate.com/en-us/oral-health/bad-breath/how-to-help-bad-breath-go-away-under-stress",
