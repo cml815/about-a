@@ -99,7 +99,7 @@ let projects = [
   },
   {
     id: "5",
-    company: "Overture for Johnson and Johnson",
+    company: "Johnson & Johnson",
     slug: "overture",
     product: "biotech",
     category: "magazine",
