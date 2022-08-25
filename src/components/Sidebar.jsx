@@ -17,8 +17,8 @@ export default function Sidebar() {
                 color: isActive ? "red" : "",
               };
             }}
-            to={`/projects/${project.company}`}
-            key={project.company}
+            to={`/projects/${project.slug}`}
+            key={project.slug}
           >
             {project.company}
           </NavLink>
