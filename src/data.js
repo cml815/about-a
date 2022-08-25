@@ -226,8 +226,8 @@ export function getCategories() {
 //   return projects;
 // }
 
-export function getProject(company) {
-  return projects.find(project => project.company === company);
+export function getProject(slug) {
+  return projects.find(project => project.slug === slug);
 }
 
 export function getCategory(category) {

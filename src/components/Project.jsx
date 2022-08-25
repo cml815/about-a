@@ -23,7 +23,7 @@ export function Project() {
         {/* product is major service */}
         <p className="upper">{project.product}</p>
         {/* project ID === company */}
-        <h2 className="tightHeight">{params.projectId}</h2>   
+        <h2 className="tightHeight">{project.company}</h2>   
       </div>
         
         <figure className={styles.container}>
