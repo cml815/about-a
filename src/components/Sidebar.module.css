@@ -1,0 +1,9 @@
+.navContainer {
+  display: flex;
+}
+
+.sideBar {
+  border-right: "side 1 px";
+  padding: 1rem;
+}
+

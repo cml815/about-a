@@ -1,16 +1,12 @@
 import { Link, NavLink, Outlet } from "react-router-dom";
 import { getProjects } from "../data";
+import styles from "./Sidebar.module.css";
 
 export default function Sidebar() {
   let projects = getProjects();
   return (
-    <div style={{ display: "flex" }}>
-      <nav
-        style={{
-          borderRight: "solid 1px",
-          padding: "1rem",
-        }}
-      >
+    <div className={styles.navContainer}> 
+      <nav className={styles.sideBar}>
           <a href="/">All Projects</a>
         {projects.map((project) => (
           <NavLink
