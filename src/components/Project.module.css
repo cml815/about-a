@@ -55,7 +55,12 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  margin: 0;
+}
+@media screen and (min-width: 400px) {
+  .container {
+    padding: 1rem;
+  }
 }
 
 .urlList {
@@ -68,9 +73,12 @@ main {
   padding: 1rem 0;
 }
 
-.summary {
-  padding: 1.5rem 0;
+@media screen and (min-width: 400px) {
+  .summary {
+    padding: 1.5rem 0;
+  }
 }
+
 
 .textCol {
   font-size: 1.25rem;
