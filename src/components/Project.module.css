@@ -79,12 +79,10 @@ main {
   }
 }
 
-
 .textCol {
   font-size: 1.25rem;
   max-width: 750px;
-  line-height: 2.0rem;
-  
+  line-height: 2.0rem; 
 }
 
 .excerptContainer {

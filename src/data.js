@@ -152,8 +152,8 @@ let projects = [
     product: "lead generation",
     category: "lead-generation",
     tags: [
-      {tag: "EMR"},
-      {tag: "covid-19"},
+      {tag: "Lead generation"},
+      {tag: "Convey new EHR features during COVID-19 emergency"},
     ],
     image: require("./images/net-health.png"),
     snippet: "Net Health offers custom electronic health/medical records for some of the fastest growing specialties, including Urgent Care. Their approach to attracting sales is by offering clear, concise ebooks and other collateral.",

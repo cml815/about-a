@@ -35,6 +35,12 @@ export function Project() {
             <h2>Campaign summary</h2>
             <p className={styles.textCol}>{project.snippet}</p>
           </div>
+          <div className={styles.skills}>
+            <h2>Results</h2>
+            <ul>
+              <li></li>
+            </ul>
+          </div>
           <div className={styles.excerptContainer}>
            <blockquote className="excerpt"><span className="xl">&#8220;&nbsp;</span>{project.excerpt}...<span className="xl">&nbsp;&#8221;</span></blockquote>
           <a href={project.url0} target="_blank"><p className="center">{project.title0}</p></a>
