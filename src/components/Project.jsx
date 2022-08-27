@@ -36,8 +36,8 @@ export function Project() {
             <p className={styles.textCol}>{project.snippet}</p>
           </div>
           <div className={styles.excerptContainer}>
-          <a href={project.url0} target="_blank">{project.title0}</a>
            <blockquote className="excerpt"><span className="xl">&#8220;&nbsp;</span>{project.excerpt}...<span className="xl">&nbsp;&#8221;</span></blockquote>
+          <a href={project.url0} target="_blank"><p className="center">{project.title0}</p></a>
           </div>
           <h3>Read on {project.company}'s website</h3>
           <div className={styles.urlList}>

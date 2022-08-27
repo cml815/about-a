@@ -89,4 +89,5 @@ main {
 
 .excerptContainer {
   background-color: #dedede;
+  max-width: 750px;
 }
