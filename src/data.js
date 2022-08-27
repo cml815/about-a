@@ -149,7 +149,7 @@ let projects = [
     id: "9",
     company: "Net Health",
     slug: "net-health",
-    product: "eBooks",
+    product: "lead generation",
     category: "lead-generation",
     tags: [
       {tag: "EMR"},
