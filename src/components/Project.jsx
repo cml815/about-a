@@ -50,9 +50,7 @@ export function Project() {
             <a href={project.url1} target="_blank">{project.title1}</a>
             <a href={project.url2} target="_blank">{project.title2}</a>  
             <a href={project.url3} target="_blank">{project.title3}</a>
-            <a href={project.url4} target="_blank">{project.title4}</a>
-            <a href={project.url5} target="_blank">{project.title5}</a>   
-            <a href={project.url6}>{project.title6}</a>          
+            <a href={project.url4} target="_blank">{project.title4}</a>        
           </div>
           
         </figure>

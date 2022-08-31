@@ -65,12 +65,14 @@ main {
 
 .urlList {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   font-size: 1.5rem;
+  
 }
 
 .urlList > a {
-  padding: 1rem 0;
+  padding: .5rem;
+  width: 50%;
 }
 
 @media screen and (min-width: 400px) {
