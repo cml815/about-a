@@ -45,7 +45,7 @@ export function Project() {
            <blockquote className="excerpt"><span className="xl">&#8220;&nbsp;</span>{project.excerpt}...<span className="xl">&nbsp;&#8221;</span></blockquote>
           <a href={project.url0} target="_blank"><p className="center">{project.title0}</p></a>
           </div>
-          <h3>Read on {project.company}'s website</h3>
+          <h3>More on the {project.company}'s website</h3>
           <div className={styles.urlList}>
             <a href={project.url1} target="_blank">{project.title1}</a>
             <a href={project.url2} target="_blank">{project.title2}</a>  
