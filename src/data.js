@@ -54,7 +54,7 @@ let projects = [
     id: "3",
     company: "Medical News Today",
     slug: "mnt",
-    product: "patient information",
+    product: "authority",
     category: "authority",
     tags: [
       {tag: "health", type: ""},
@@ -72,8 +72,8 @@ let projects = [
   {
     id: "4",
     company: "RewardExpert",
-    slug: "rewardexpert",
-    product: "founder interviews",
+    slug: "reward-expert",
+    product: "startup PR",
     category: "SEO",
     tags: [
       {tag: "link-building", type: ""},
@@ -218,7 +218,7 @@ let projects = [
     id: "13",
     company: "Business Insider",
     slug: "business-insider",
-    product: "profile",
+    product: "startup PR",
     category: "media relations",
     tags: [
       {tag: "automotive"},
