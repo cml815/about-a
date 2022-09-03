@@ -73,7 +73,7 @@ let projects = [
     id: "4",
     company: "RewardExpert",
     slug: "reward-expert",
-    product: "startup PR",
+    product: "startups",
     category: "SEO",
     tags: [
       {tag: "link-building", type: ""},
@@ -82,7 +82,7 @@ let projects = [
       {tag: "interviews", type: ""}
     ],
     // tags: "travel-tech",
-    image: require("./images/reward-expert.png"),
+    image: require("./images/zip.png"),
     snippet: "Reward Expert's active content creation and SEO has placed the website among the top in its category. As a way of building relationships, the site published interviews of CEOs of growing travel tech startups.<br /> I interviewed and wrote stories on 30+ startups, including ones featured in Mashable, TechCrunch,and Fast Company.",
     excerpt: "Did you know you can travel around the world and get lodging for free? That’s what HomeExchange offers with their house swapping service. RewardExpert spoke with Alexandra Origet, HomeExchange’s global public relations director, to learn more.",
     url0: "https://www.rewardexpert.com/blog/homeexchange-how-travelers-can-get-free-lodging/",
