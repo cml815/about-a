@@ -208,9 +208,9 @@ let projects = [
     tags: [
       {tag: "advertising"},
     ],
-    image: require("./images/sparrow.webp"),
-    snippet: "A profile I wrote on an edgy automotive startup was picked up and syndicated by Business Insider.",
-    excerpt: "The Electrameccanica Sparrow is among the new contenders vying in the electric car market. This single-user vehicle with three wheels and odd shape is made in B.C. has gotten notice on Vancouver roads. ElectraMeccanica chief executive Jerry Kroll is confident that an oddly-shaped, three-wheeled electric vehicle will please Canada drivers and drum up big profits.",
+    image: require("./images/surgery.jpg"),
+    snippet: "I wrote thought-leadership articles geared toward hospital executive requiring a modern advertising strategy.",
+    excerpt: "Online marketing has become increasingly ignored where many people scroll past content or disable ads. Compounding this problem are the people who are not even online, and many of them have significant healthcare needs.",
     url0: "https://borshoff.biz/build-effective-hospital-brand-strategy/",
     title0: "Build a Hospital Brand Strategy",
     url2: "https://borshoff.biz/hospitals-marketing-reach-a-wider-audience/",
