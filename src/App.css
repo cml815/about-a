@@ -29,7 +29,7 @@
 .autoGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: 350px;
+  grid-template-rows: 250px;
   gap: 6rem 4rem;
   padding: 4rem 1rem; 
 }
