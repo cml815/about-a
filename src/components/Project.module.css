@@ -71,9 +71,12 @@ main {
 }
 
 .urlList > a {
-  padding: .5rem;
-  width: 50%;
+  color: rgb(79, 77, 77);
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  margin-right: 1rem;
 }
+
 
 @media screen and (min-width: 400px) {
   .summary {
