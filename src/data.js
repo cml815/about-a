@@ -68,7 +68,6 @@ let projects = [
     title0: "Everything You Need to Know About the Cerebellum",
     url1: "https://www.medicalnewstoday.com/articles/312292",
     title1: "What Does a Bone Marrow Biopsy Involve?"
-
   },
   {
     id: "4",
@@ -126,7 +125,7 @@ let projects = [
     id: "6",
     company: "Aceable",
     slug: "aceable",
-    product: "pillar",
+    product: "SEO",
     category: "SEO",
     tags: [
       {tag: "ecommerce", type: ""},
@@ -136,7 +135,7 @@ let projects = [
     //   "",
     //   ""
     // ],
-    image: require("./images/driversed.png"),
+    image: require("./images/aceable.png"),
     snippet: "Aceable and its sub-brands (Drivers Ed & I Drive Safely) provide online driving courses need a strong web presence to be found. As a writer, I have been supported their long-running campaigns to be relevant and easily found in a highly competitive industry.",
     excerpt: "While traffic accidents and fatalities have been on the rise, driving under the influence is not the main cause of collisions. Nearly 43,000 people died in traffic accidents in 2021, but only 20% of those were alcohol-related, according to the U.S. Department of Transportation. So, you can see that a large proportion of serious crashes are the result of common driving mistakes drivers make every day. Many drivers just want to get where they’re going as comfortably and as efficiently as possible. But, nothing can ruin your day quite like getting a speeding ticket or causing a crash. So how can you minimize these dangerous and costly disruptions? Well, beyond the obvious, like remembering to stop at STOP signs and yield to emergency vehicles, the best way to avoid costly driving errors is to pay more attention to how you’re driving.",
     url0: "https://driversed.com/trending/ten-driving-mistakes-you-dont-know-youre-making/",
@@ -147,7 +146,6 @@ let projects = [
     title2: "Tips and Tricks to Become a Safer and More Confident Driver",
 
   },
-  
   {
     id: "9",
     company: "Net Health",
