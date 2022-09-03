@@ -77,6 +77,8 @@
 
 .cardHeadline {
   line-height: 1rem;
+  font-size: 1.25rem;
+  color: black;
   margin: 1rem 0;
   padding-bottom: 2rem;
 }
