@@ -94,13 +94,13 @@
 .label {
   display: inline;
   position: absolute;
-  top: -16px;
+  top: -20px;
   left: 0px;
   text-align: left;
   background-color: rgb(237, 68, 68);
   color: white;
-  height: 3rem;
-  padding: .5rem;
+  height: 2rem;
+  padding: .25rem;
 }
 
 .tag {
