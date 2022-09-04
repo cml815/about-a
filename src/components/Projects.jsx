@@ -8,7 +8,7 @@ export function Projects () {
   let projects = getProjects();
   // let [searchParams, setSearchParams] = useSearchParams();
    return (
-    <div className="projects-wrapper bg-dark">
+    <div className="projects-wrapper">
       <section className="hero flex-c">
       <div className="text-box">
         <h1 className="">Caroline Leopold is a freelance <br />medical, marketing &amp; technology writer.</h1>
@@ -18,6 +18,7 @@ export function Projects () {
       <div className="center">
       </div>
         <header className="">
+          <h3>Live Projects</h3>
         </header>
         <div className="autoGrid">
           {projects.map((projects, index) => {
