@@ -64,13 +64,15 @@ p {
 
 .btnContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
-  background-color: red;
+  background-color: rgb(235, 67, 67);
   color: black;
   padding: .5rem 1rem;
-  width: 50%;
+  font-size: 1.5rem;
 }
 
 a {
