@@ -62,10 +62,15 @@ p {
   line-height: 1.5rem;
 }
 
+.btnContainer {
+  display: flex;
+}
+
 .btn {
   background-color: red;
   color: black;
   padding: .5rem 1rem;
+  width: 50%;
 }
 
 a {
