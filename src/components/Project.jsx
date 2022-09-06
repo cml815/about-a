@@ -35,10 +35,11 @@ export function Project() {
             <h2>Campaign summary</h2>
             <p className={styles.textCol}>{project.snippet}</p>
           </div>
+          <p>From "{project.title0}"</p>
           <div className={styles.excerptContainer}>
            <blockquote className="excerpt"><span className="xl">&#8220;&nbsp;</span>{project.excerpt}...<span className="xl">&nbsp;&#8221;</span></blockquote>
            <div className="btnContainer">
-          <a href={project.url0} target="_blank"><p className="btn center">Go to full article, '{project.title0}'</p></a>
+          <a href={project.url0} target="_blank"><p className="btn center">Read full article</p></a>
           </div>
           </div>
           <h3>More on the {project.company}'s website</h3>
