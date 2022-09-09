@@ -19,8 +19,8 @@ let projects = [
     //   "health"
     // ],
     image: require("./images/women-garden.jpg"),
-    snippet: "Benefiber envisioned a content strategy to position the fiber supplement as top-of-mind for active people. As writer, I created a series of relatable and informational articles on Benefiber's website.",
-    results: "The series feature articles remain on the Benefiber website to draw new audiences.",
+    snippet: "Benefiber envisioned a content strategy to position the fiber supplement as top-of-mind for active people. As writer, I created a series of relatable and informational articles on Benefiber's website. The articles explain health topics in a (no pun intended) digestible format. Each article from authoritative health sources and underwent review",
+    results: "The series feature articles remain on the Benefiber website to enable audiences to connect relatable helth.",
     excerpt: "As we age, there are factors that contribute to the slowing of the digestive system...Though there's nothing we can do to prevent aging, eating a healthy diet, drinking plenty of water, and getting regular exercise are some of the things we can do to prevent digestive problems.",
     title0: "Aging and Digestion",
     title1: "What Does the Gut-Brain Connection Mean?",
@@ -40,7 +40,7 @@ let projects = [
       {tag: "relatable", type: ""}
     ],
     image: require("./images/braces-640.360.jpg"),
-    snippet: "Colgate® used a content strategy to make the oral health line more relatable and trustworthy. What the do especially well is offering authoritative information and product information in one place.",
+    snippet: "Colgate® used a content strategy to make the oral health line more relatable and trustworthy. What the do especially well is offering authoritative information and product information in one place. The results was evergreen content that directly tied oral health information with relevant products",
     results: "Magazine-style articles tied with health and brand information drive more awareness and sales for the respected oral health brand.",
     excerpt: "[T]here are actions you can take to prevent bad breath the next time you're under pressure from a first date, a job interview, an important meeting, giving a speech at the Oscars, or your next rocket launch (while wearing a space helmet, good breath is imperative). So sit back, relax, and calm those nerves, because we have a few tips and tricks that may be able to help you.",
     url0: "https://www.colgate.com/en-us/oral-health/bad-breath/how-to-help-bad-breath-go-away-under-stress",
@@ -83,7 +83,7 @@ let projects = [
     ],
     // tags: "travel-tech",
     image: require("./images/zip.png"),
-    snippet: "Reward Expert's active content creation and SEO has placed the website among the top in its category. As a way of building relationships, the site published interviews of CEOs of growing travel tech startups.<br /> I interviewed and wrote stories on 30+ startups, including ones featured in Mashable, TechCrunch,and Fast Company.",
+    snippet: "Reward Expert's active content creation and SEO has placed the website among the top in its category. As a way of building relationships, the site published interviews of CEOs of talked-about travel tech startups. I interviewed and wrote stories on CEOs at 30+ startups, including companies that had been featured in Mashable, TechCrunch and Fast Company.",
     excerpt: "Did you know you can travel around the world and get lodging for free? That’s what HomeExchange offers with their house swapping service. RewardExpert spoke with Alexandra Origet, HomeExchange’s global public relations director, to learn more.",
     url0: "https://www.rewardexpert.com/blog/homeexchange-how-travelers-can-get-free-lodging/",
     title0: "Home Exchange: How Travelers Can Get Free Lodging",
