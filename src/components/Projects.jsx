@@ -14,6 +14,11 @@ export function Projects () {
         <h1 className="">Caroline Leopold is a freelance <br />medical, marketing &amp; technology writer.</h1>
       </div>
       </section>
+      <section className="text-box">
+        <h2>There's no byline to identify me, but I'm hired to write money-making content in tech, business and health. I have created over 1,000 pieces in 7 years for around 80 brands.</h2>
+        <Link to="/about">Learn more about me.
+        </Link>
+      </section>
       <section className="projects-wrapper">
       <div className="center">
       </div>
