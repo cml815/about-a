@@ -26,6 +26,17 @@
 }
 }
 
+.bio-box {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+background-color: orange;
+}
+
+.bio-box > h2 {
+}
+
 .autoGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
