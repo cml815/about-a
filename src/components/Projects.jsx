@@ -15,7 +15,7 @@ export function Projects () {
       </div>
       </section>
       <section className="bio-box">
-        <h2>There's no byline to identify me, but I'm hired to write money-making content in tech, business and health. I have created over 1,000 pieces in 7 years for around 80 brands.</h2>
+        <h2>Tech and health companies hire me to to write profitable content. I have created over 1,000 pieces in 7 years for 80+ brands.</h2>
         <Link to="/about">Learn more about me.
         </Link>
       </section>
