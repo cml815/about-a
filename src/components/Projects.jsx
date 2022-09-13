@@ -18,7 +18,7 @@ export function Projects () {
       <div className="center">
       </div>
         <header className="">
-          <h3>Live Projects</h3>
+          
         </header>
         <div className="autoGrid">
           {projects.map((projects, index) => {
