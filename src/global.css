@@ -70,18 +70,18 @@ p {
 }
 
 .btn {
-  background-color: white;
-  border: 2px solid red;
+  background-color: rgb(252, 62, 62);
+  border: 2px solid white;
   color: black;
   padding: .5rem 1rem;
   font-size: 1.25rem;
+  transition: .5s;
 }
 
 .btn:hover {
-  background-color: red;
-  color: white;
-  transition-timing-function: ease;
-  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  background-color: white;
+  color: red;
+  border: solid 1.5px black; 
 }
 
 a {
