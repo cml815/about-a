@@ -15,7 +15,12 @@ export function Projects () {
       </div>
       </section>
       <section className="bio-box">
-        <h2>Tech and health companies hire me to to write profitable content. I have created over 1,000 pieces in 7 years for 80+ brands.</h2>
+        <h2>Companies hire me to write to grow visits, lead generation and sales.</h2>
+        <div className="flex">
+          <h4>1,000+ content pieces</h4>
+          <h4>10 years</h4>
+          <h4>70 companies</h4>
+        </div>
         <Link className="btn_round--light"to="/about">Learn more about me.
         </Link>
       </section>
