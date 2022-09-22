@@ -16,7 +16,7 @@ export function Projects () {
       </section>
       <section className="bio-box">
         <h2>Tech and health companies hire me to to write profitable content. I have created over 1,000 pieces in 7 years for 80+ brands.</h2>
-        <Link to="/about">Learn more about me.
+        <Link className="btn"to="/about">Learn more about me.
         </Link>
       </section>
       <section className="projects-wrapper">

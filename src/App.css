@@ -28,11 +28,13 @@
 
 .bio-box {
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 1rem;
 background-color: orange;
 }
+@media 
 
 .bio-box > h2 {
 }
