@@ -228,6 +228,50 @@ let projects = [
     excerpt: "The Electrameccanica Sparrow is among the new contenders vying in the electric car market. This single-user vehicle with three wheels and odd shape is made in B.C. has gotten notice on Vancouver roads. ElectraMeccanica chief executive Jerry Kroll is confident that an oddly-shaped, three-wheeled electric vehicle will please Canada drivers and drum up big profits.",
     url0: "https://www.businessinsider.com/this-3-wheeled-electric-car-is-the-volkswagen-beetle-of-the-21st-century-2015-7",
     title0: "This 3-wheeled electric car is the 'Volkswagen Beetle of the 21st century'",
+  },
+  {
+    id: "14",
+    company: "Car Insurance Quotes",
+    slug: "seo-site",
+    product: "buyer's guide",
+    category: "seo",
+    tags: [
+      {tag: "", type: ""},
+      {tag: "", type: ""}
+    ],
+    // tags: [
+    //   "",
+    //   ""
+    // ],
+    image: require("./images/car-insurance.png"),
+    snippet: "Online recommendation sites in the automotive sector have stiff competition. The content strategy aimed to unite buyers' car options with clever and fun content.",
+    excerpt: "Green cars use alternate sources of fuel, giving them a much-deserved reputation for being friendly to the environment. Drivers love them because they spend more time on the road and less at the pump. With many options on the market, which one is right for you? Here’s a buyer’s guide to match you with a new ride.",
+    url0: "https://www.carinsurancequotes.com/articles/buyers-guide-green-cars-personalities",
+    title0: "Buyer’s guide for green cars: Eco-wheels for 8 personalities, including yours",
+    url1: "",
+    title1: ""
+  },
+  {
+    id: "15",
+    company: "AlgaeCal",
+    slug: "algaecal",
+    product: "supplements",
+    category: "authority",
+    tags: [
+      {tag: "biotech", type: ""},
+      {tag: "innovation", type: ""}
+    ],
+    // tags: [
+    //   "",
+    //   ""
+    // ],
+    image: require("./images/algaecal.png"),
+    snippet: "AlgaeCal hired me to write an authoritative but relatable article on the health benefits of magnesium.",
+    excerpt: "Research shows that magnesium benefits virtually every part of your body. It helps maintain normal muscle and nerve function, keeps your heart rhythm steady, supports a healthy immune system, and keeps your bones strong.",
+    url0: "https://www.algaecal.com/algaecal-ingredients/magnesium/",
+    title0: "The Effects of Magnesium and Why We Need It",
+    url1: "",
+    title1: ""
   }
   
 ]
