@@ -11,7 +11,7 @@ export function Projects () {
     <div className="projects-wrapper">
       <section className="hero flex-c">
       <div className="text-box">
-        <h1 className="">Caroline Leopold is a freelance <br />medical, marketing &amp; technology writer.</h1>
+        <h1 className="">Caroline Leopold is a freelance <br />medical, technical &amp; marketing writer.</h1>
       </div>
       </section>
       <section className="bio-box">
