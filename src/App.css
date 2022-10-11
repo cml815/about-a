@@ -41,20 +41,23 @@ background-color: orange;
 
 .autoGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-template-rows: 350px;
-  gap: 0;
+  gap: 1rem;
   padding: 4rem 1rem; 
 }
 
 .cardContainer {
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-container {
   position: relative;
-  background: rgb(50,34,195);
-  background: linear-gradient(0deg, rgba(50,34,195,0.6922969871542367) 0%, rgba(253,72,45,1) 100%);
+  /* background: rgb(50,34,195);
+  background: linear-gradient(0deg, rgba(50,34,195,0.6922969871542367) 0%, rgba(253,72,45,1) 100%); */
 }
 
 /* .cardContainer {
