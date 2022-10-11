@@ -42,8 +42,8 @@ background-color: orange;
 .autoGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: 250px;
-  gap: 6rem 4rem;
+  grid-template-rows: 350px;
+  gap: 0;
   padding: 4rem 1rem; 
 }
 
@@ -70,7 +70,7 @@ background-color: orange;
 
 .card {
   min-width: 0;
-  background-color: #f7f7f7;
+  background-color: #ddd;
   padding: .25rem;
   border-radius: 0.5rem;
 }
