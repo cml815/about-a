@@ -118,8 +118,6 @@ let projects = [
     excerpt: "IMAGINE IF DIAGNOSING CANCER WAS AS simple as a blood test. Dubbed “liquid biopsies,” they analyze the proteins and DNA of cancerous tumors that circulate within the blood. They could allow for an earlier diagnosis, which gives patients the best chance to beat cancer and live longer.",
     url0: "https://www.overtureglobal.io/story/liquid-biopsies-for-cancer-detection-move-closer-to",
     title0: "Liquid Biopsies for Cancer Detection Move Closer to Reality",
-    url1: "",
-    title1: ""
   },
   {
     id: "6",
@@ -144,7 +142,6 @@ let projects = [
     title1: "What to Keep in Your Car's Emergency Kit",
     url2: "https://www.idrivesafely.com/defensive-driving/trending/tips-and-tricks-become-safer-and-more-confident-driver",
     title2: "Tips and Tricks to Become a Safer and More Confident Driver",
-
   },
   {
     id: "9",
@@ -248,8 +245,6 @@ let projects = [
     excerpt: "Green cars use alternate sources of fuel, giving them a much-deserved reputation for being friendly to the environment. Drivers love them because they spend more time on the road and less at the pump. With many options on the market, which one is right for you? Here’s a buyer’s guide to match you with a new ride.",
     url0: "https://www.carinsurancequotes.com/articles/buyers-guide-green-cars-personalities",
     title0: "Buyer’s guide for green cars: Eco-wheels for 8 personalities, including yours",
-    url1: "",
-    title1: ""
   },
   {
     id: "15",
@@ -270,8 +265,6 @@ let projects = [
     excerpt: "Research shows that magnesium benefits virtually every part of your body. It helps maintain normal muscle and nerve function, keeps your heart rhythm steady, supports a healthy immune system, and keeps your bones strong.",
     url0: "https://www.algaecal.com/algaecal-ingredients/magnesium/",
     title0: "The Effects of Magnesium and Why We Need It",
-    url1: "",
-    title1: ""
   }
   
 ]
