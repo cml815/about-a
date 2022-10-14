@@ -43,7 +43,7 @@ background-color: orange;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-template-rows: 350px;
-  gap: 1rem;
+  gap: 2rem;
   padding: 4rem 1rem; 
 }
 

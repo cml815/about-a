@@ -45,10 +45,10 @@ export function Projects () {
                       <p className="label">{projects.product}</p>
                     </div> */}
                   <img className="cardImage" src={projects.image} alt="project image" />
-                  <p className="label">{projects.product}</p>
                   {/* <figcaption>
                     <h4 className="cardHeadline">{projects.company}</h4>
                   </figcaption> */}
+                    <p className="label">{projects.product}</p>
                </div>
                 </li>
                 </Link>

@@ -243,7 +243,7 @@ let projects = [
     //   "",
     //   ""
     // ],
-    image: require("./images/car-insurance.png"),
+    image: require("./images/bmw.png"),
     snippet: "Online recommendation sites in the automotive sector have stiff competition. The content strategy aimed to unite buyers' car options with clever and fun content.",
     excerpt: "Green cars use alternate sources of fuel, giving them a much-deserved reputation for being friendly to the environment. Drivers love them because they spend more time on the road and less at the pump. With many options on the market, which one is right for you? Here’s a buyer’s guide to match you with a new ride.",
     url0: "https://www.carinsurancequotes.com/articles/buyers-guide-green-cars-personalities",
@@ -255,7 +255,7 @@ let projects = [
     id: "15",
     company: "AlgaeCal",
     slug: "algaecal",
-    product: "supplements",
+    product: "lead generation",
     category: "authority",
     tags: [
       {tag: "biotech", type: ""},
