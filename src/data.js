@@ -142,7 +142,13 @@ let projects = [
     title1: "What to Keep in Your Car's Emergency Kit",
     url2: "https://www.idrivesafely.com/defensive-driving/trending/tips-and-tricks-become-safer-and-more-confident-driver",
     title2: "Tips and Tricks to Become a Safer and More Confident Driver",
+    title3: "Renew Your Ohio Driver's License",
+    url3: "https://www.aceable.com/blog/how-to-renew-your-drivers-license-in-ohio/",
+    title4: "Driving With a Suspended License",
+    url4: "https://www.idrivesafely.com/defensive-driving/trending/driving-suspended-or-expired-license-or-no-license-all"
   },
+  
+  
   {
     id: "9",
     company: "Net Health",
