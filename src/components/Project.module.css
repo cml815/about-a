@@ -71,12 +71,14 @@ main {
 }
 
 .urlList > a {
-  color: rgb(79, 77, 77);
-  font-size: 1.5rem;
+  color: white;
+  font-size: 1rem;
   padding: 1rem .5rem;
   margin-right: 1rem;
-  text-decoration: underline;
+  margin-bottom: 2em;;
+  background-color: rgb(252, 62, 62);
 }
+
 
 
 @media screen and (min-width: 400px) {
