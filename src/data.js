@@ -51,6 +51,27 @@ let projects = [
     title2: "Tips For Adults With Braces"
   },
   {
+    id: "1g",
+    company: "National Hemophilia Foundation",
+    slug: "nhf",
+    product: "grant",
+    category: "???",
+    tags: [
+      {tag: "health", type: ""},
+      {tag: "relatable", type: ""}
+    ],
+    image: require("./images/hemophilia.jpg"),
+    snippet: "As a national disease non-profit, the National Hemophilia Foundation is charged with educating providers and patients on the latest advances in bleeding disorder research. The CDC awarded the NHF with a $3 million dollar grant to prevent complications in males with hemophilia and raise awareness about von Willebrand Disease. vWD is the most common bleeding disorder and affects males and females, but if undiagnosed can lead to dangerous bleeding and miscarriage for pregnant women.",
+    results: "The 5-year grant enabled NHF to deepen their partnerships with physician groups, hemophilia treatment centers and patients and their advocates. The collaborative has been working to reduce pain and disability among those with bleeding disorders.",
+    excerpt: "NHF was awarded funding to continue the “First Step” education program for newly diagnosed families. This program targets families new to the bleeding disorder community, as well as carrier families. Through the program, families gain information and resources on topics like diagnosis, management, treatment options, and strategies to prevent secondary conditions. ",
+    url0: "https://www.cdc.gov/ncbddd/hemophilia/aboutus-projects.html",
+    title0: "CDC Grant Announcement",
+    url1: "https://www.colgate.com/en-us/oral-health/tooth-sensitivity/what-causes-sensitive-teeth",
+    title1: "What Causes Tooth Sensitivity & How to Treat It",
+    url2: "https://www.colgate.com/en-us/oral-health/adult-orthodontics/tips-for-adults-with-braces",
+    title2: "Tips For Adults With Braces"
+  },
+  {
     id: "3",
     company: "Medical News Today",
     slug: "mnt",
