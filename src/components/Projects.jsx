@@ -17,13 +17,12 @@ export function Projects () {
       </div>
       </section>
       <section className="bio-box">
-        <h2>Companies hire me to write to grow visits, lead generation and sales.</h2>
         <div className="flex">
-          <h4>1,000+ content pieces</h4>
-          <h4>10 years</h4>
-          <h4>70 companies</h4>
+          <h4>12 years</h4>
+          <h4>86 brands</h4>
+          <h4>1,000+ work products</h4>
+          <h4>$40M+ success</h4>
         </div>
-       
       </section>
       <section className="projects-wrapper">
       <div className="center">
