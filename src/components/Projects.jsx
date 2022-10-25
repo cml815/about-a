@@ -16,14 +16,6 @@ export function Projects () {
         </Link>
       </div>
       </section>
-      <section className="bio-box">
-        <div className="flex">
-          <h4>12 years</h4>
-          <h4>86 brands</h4>
-          <h4>1,000+ work products</h4>
-          <h4>$40M+ success</h4>
-        </div>
-      </section>
       <section className="projects-wrapper">
       <div className="center">
       </div>
