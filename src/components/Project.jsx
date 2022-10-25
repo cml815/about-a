@@ -42,7 +42,7 @@ export function Project() {
           <a href={project.url0} target="_blank"><p className="btn center">Read full article</p></a>
           </div>
           </div>
-          <h3>Similar content</h3>
+          <h3>Similar work</h3>
           <div className={styles.urlList}>
             <a href={project.url1} target="_blank">{project.title1}</a>
             <a href={project.url2} target="_blank">{project.title2}</a>  

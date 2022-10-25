@@ -44,6 +44,7 @@ main {
 }
 
 .projectContainer {
+  min-height: 100$;
   grid-area: main;
 }
 
@@ -71,8 +72,9 @@ main {
 }
 
 .urlList > a {
+  min-height: 100%;
   color: white;
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding: 1rem .5rem;
   margin-right: 1rem;
   margin-bottom: 2em;;
