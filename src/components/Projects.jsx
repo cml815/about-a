@@ -12,6 +12,8 @@ export function Projects () {
       <section className="hero flex-c">
       <div className="text-box">
         <h1 className="">Caroline Leopold is a freelance <br />medical, technical &amp; marketing writer.</h1>
+        <Link className="btn_round--light"to="/about">Learn more about me.
+        </Link>
       </div>
       </section>
       <section className="bio-box">
@@ -21,8 +23,7 @@ export function Projects () {
           <h4>10 years</h4>
           <h4>70 companies</h4>
         </div>
-        <Link className="btn_round--light"to="/about">Learn more about me.
-        </Link>
+       
       </section>
       <section className="projects-wrapper">
       <div className="center">
