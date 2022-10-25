@@ -67,7 +67,13 @@ let projects = [
     url0: "https://www.medicalnewstoday.com/articles/313265",
     title0: "Everything You Need to Know About the Cerebellum",
     url1: "https://www.medicalnewstoday.com/articles/312292",
-    title1: "What Does a Bone Marrow Biopsy Involve?"
+    title1: "What Does a Bone Marrow Biopsy Involve?",
+    url2: "https://www.benefiber.com/fiber-in-your-life/fiber-and-wellness/exercises-for-digestive-health/",
+    title2: "Exercises for Digestive Health",
+    url3: "https://www.colgate.com/en-us/oral-health/tooth-sensitivity/what-causes-sensitive-teeth",
+    title3: "What Causes Tooth Sensitivity & How to Treat It",
+    title4: "What Does the Gut-Brain Connection Mean?",
+    url4: "https://www.benefiber.com/digestive-health/gut-health-101/what-is-gut-brain-connection/",
   },
   {
     id: "4",
