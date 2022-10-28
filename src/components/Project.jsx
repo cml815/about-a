@@ -44,10 +44,18 @@ export function Project() {
           </div>
           <h3>Similar work</h3>
           <div className={styles.urlList}>
+            <div className={styles.card}>
             <a href={project.url1} target="_blank">{project.title1}</a>
+            </div>
+            <div className={styles.card}>
             <a href={project.url2} target="_blank">{project.title2}</a>  
+            </div>
+            <div className={styles.card}>
             <a href={project.url3} target="_blank">{project.title3}</a>
-            <a href={project.url4} target="_blank">{project.title4}</a>        
+            </div>
+            <div className={styles.card}>
+            <a href={project.url4} target="_blank">{project.title4}</a>  
+            </div>      
           </div>
           
         </figure>

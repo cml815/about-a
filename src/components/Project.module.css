@@ -65,10 +65,18 @@ main {
 }
 
 .urlList {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-gap: .75rem;
   /* flex-direction: column; */
   font-size: 1.5rem;
   
+}
+
+.card {
+  background-color: gray;
+  padding: 0 .5rem 1rem;
+
 }
 
 .urlList > a {

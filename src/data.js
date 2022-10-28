@@ -19,15 +19,19 @@ let projects = [
     //   "health"
     // ],
     image: require("./images/women-garden.jpg"),
-    snippet: "Benefiber envisioned a content strategy to position the fiber supplement as top-of-mind for active people. As writer, I created a series of relatable and informational articles on Benefiber's website. The articles explain health topics in a (no pun intended) digestible format. Each article from authoritative health sources and underwent review",
-    results: "The series feature articles remain on the Benefiber website to enable audiences to connect relatable helth.",
+    snippet: "Benefiber envisioned a content strategy to position the fiber supplement as top-of-mind for active people. As writer, I created a series of relatable and informational articles on Benefiber's website. The articles explain health topics in a (no pun intended) digestible format. Each article from authoritative health sources and underwent regulatory review.",
+    results: "The series feature articles remain on the Benefiber website to enable audiences to connect relatable health.",
     excerpt: "As we age, there are factors that contribute to the slowing of the digestive system...Though there's nothing we can do to prevent aging, eating a healthy diet, drinking plenty of water, and getting regular exercise are some of the things we can do to prevent digestive problems.",
     title0: "Aging and Digestion",
     title1: "What Does the Gut-Brain Connection Mean?",
     url0: "https://www.benefiber.com/fiber-in-your-life/fiber-and-wellness/aging-and-digestion/",
     url1: "https://www.benefiber.com/digestive-health/gut-health-101/what-is-gut-brain-connection/",
     url2: "https://www.benefiber.com/fiber-in-your-life/fiber-and-wellness/exercises-for-digestive-health/",
-    title2: "Exercises for Digestive Health"
+    title2: "Exercises for Digestive Health",
+    url3: "https://www.benefiber.com/fiber-in-your-life/fiber-and-wellness/stress-and-digestion/",
+    title3: "How Stress Affects Digestion",
+    url4: "https://www.benefiber.com/digestive-health/gut-health-101/basic-digestive-health-facts/",
+    title4: "Basic Facts About Digestive Health"
   },
   {
     id: "2",
