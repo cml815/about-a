@@ -37,9 +37,9 @@ export function Projects () {
                       <p className="label">{projects.product}</p>
                     </div> */}
                   <img className="cardImage" src={projects.image} alt="project image" />
-                  {/* <figcaption>
+                  <figcaption>
                     <h4 className="cardHeadline">{projects.company}</h4>
-                  </figcaption> */}
+                  </figcaption>
                     <p className="label">{projects.product}</p>
                </div>
                 </li>

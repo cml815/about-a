@@ -99,3 +99,9 @@ main {
   background-color: #f1f1f1;
   max-width: 750px;
 }
+
+a.caption {
+  color: black;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
