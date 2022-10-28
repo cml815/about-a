@@ -106,7 +106,7 @@ let projects = [
     {tag: "health", type: ""},
     {tag: "E-A-T", type: ""}
   ],
-  image: require("./images/biopsy-slide.webp"),
+  image: require("./images/mnt.jpg"),
   snippet: "Medical News Today, part of the 9th most visited health site, Healthline, is a major provider of medical information to consumers. As a contract medical writer, I researched, wrote, and cited balanced articles for patient audiences.",
   results: "Authoritative medical articles have made MNT one of the top health sites in the world",
   excerpt: "The cerebellum helps a person drive, throw a ball, or walk across the room...This article explains the anatomy, functions, and possible disorders of the cerebellum. It will also offer tips on preserving brain health.",
