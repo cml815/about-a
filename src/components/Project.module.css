@@ -65,19 +65,21 @@ main {
 }
 
 .urlList {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
-  flex-gap: .75rem;
+  gap: .75rem;
   /* flex-direction: column; */
   font-size: 1.5rem;
   
 }
 
 .card {
-  background-color: gray;
+  border: 1px solid black;
   padding: 0 .5rem 1rem;
+  width: 350px;;
 
 }
+
 
 .urlList > a {
   min-height: 100%;
