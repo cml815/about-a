@@ -74,8 +74,9 @@ main {
 }
 
 .card {
+  display: flex;
   border: 1px solid black;
-  padding: 0 .5rem 1rem;
+  padding: .5rem 1rem;
   width: 350px;;
 
 }
