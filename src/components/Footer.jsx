@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <p>{(new Date().getFullYear())}</p>
+      <p className="center">&copy;{(new Date().getFullYear())} Caroline Leopold</p>
 
     </footer>
   )
