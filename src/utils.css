@@ -37,6 +37,10 @@
   display: inline-flex;
 }
 
+.inner {
+  max-width: 750px;
+}
+
 /* .flex-wrap {
   display: flex;
   flex-direction: row;
