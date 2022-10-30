@@ -72,18 +72,16 @@ p {
 .btn {
   /* background: rgb(50,34,195);
   background: linear-gradient(0deg, rgba(50,34,195,0.6922969871542367) 0%, rgba(183,45,253,1) 100%);  */
-
-  background: rgb(117,102,255);
-background: linear-gradient(0deg, rgba(117,102,255,0.6922969871542367) 0%, rgba(218,146,255,1) 100%);
-  color: black;
+  background: #513dff;
+  color: white;
   border-radius: 24px;
   padding: .75rem 1.5rem;
   font-size: 1.25rem;
-  transition: 0.7s;
+  transition: 0.7s ease-in-out;
 }
 
 .btn:hover {
-  background: #513dff;
+  background:#700ff8; 
   color: white;
 }
 
