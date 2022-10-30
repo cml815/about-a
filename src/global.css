@@ -70,32 +70,27 @@ p {
 }
 
 .btn {
-  background-color: rgb(252, 62, 62);
-  border: 2px solid white;
-  color: white;
-  padding: .5rem 1rem;
-  font-size: 1.25rem;
-  transition: .5s;
-}
+  /* background: rgb(50,34,195);
+  background: linear-gradient(0deg, rgba(50,34,195,0.6922969871542367) 0%, rgba(183,45,253,1) 100%);  */
 
-
-.btn_round--light {
-  background-color: white;
+  background: rgb(117,102,255);
+background: linear-gradient(0deg, rgba(117,102,255,0.6922969871542367) 0%, rgba(218,146,255,1) 100%);
   color: black;
-  padding: .5rem 1.25rem;
-  border-radius: 1rem;
+  border-radius: 24px;
+  padding: .75rem 1.5rem;
+  font-size: 1.25rem;
+  transition: 0.7s;
 }
 
 .btn:hover {
-  background-color: white;
-  color: black;
-  border: solid 1.5px black; 
+  background: #513dff;
+  color: white;
 }
 
 a {
   text-decoration: none;
   font-size: 1.25rem;
-  color: #a2a8d3;
+  color: black;
   position: relative;
 }
 

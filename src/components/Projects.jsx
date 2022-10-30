@@ -12,7 +12,7 @@ export function Projects () {
       <section className="hero flex-c">
       <div className="text-box">
         <h1 className="">Caroline Leopold is a freelance <br />medical grant &amp; marketing writer.</h1>
-        <Link className="btn_round--light"to="/about">Learn more about me.
+        <Link className="btn"to="/about">Learn more about me.
         </Link>
       </div>
       </section>
