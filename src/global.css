@@ -100,15 +100,6 @@ a:hover > h4 {
   text-decoration: underline;
 }
 
-/* a:visited {
-  color:  #b7a2d3;
-} */
-
-/* a:hover {
-  color: #dcc2ff;
-
-} */
-
 blockquote {
   max-width: 750px;
   font-size: 1.25rem;
