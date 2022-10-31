@@ -38,7 +38,7 @@ export function Projects () {
                     </div> */}
                   <img className="cardImage" src={projects.image} alt="project image" />
                   <figcaption>
-                    <h4 className="cardHeadline">{projects.company}</h4>
+                    <h4 className="">{projects.company}</h4>
                   </figcaption>
                     <p className="label">{projects.product}</p>
                </div>
