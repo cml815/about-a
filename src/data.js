@@ -193,7 +193,7 @@ let projects = [
       {tag: "health", type: ""},
       {tag: "E-A-T", type: ""}
     ],
-    image: require("./images/nurse.jpg"),
+    image: require("./images/therapy.jpg"),
     snippet: "Montgomery County, Pennsylvania issued a call for proposals to support workforce development and other County needs. I wrote a winning $1.2M proposal for Aspire Child and Family Services. The funded will enable workforce development and increased supports for children with autism spectrum disorder.",
     results: "",
     excerpt: "Aspire for Behavioral Health Access: Workforce Development: The project is a behavioral health workforce development and training program specifically designed to increase the number of 1) trained behavioral health technicians, 2) training programs for technicians seeking board certification in behavior analysis, and 3) continuing education opportunities for certified and licensed industry professionals. The project is designed to address the behavioral health workforce shortage and improve outcomes for children with autism spectrum disorder or other behavior health diagnoses.",
