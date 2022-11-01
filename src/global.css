@@ -113,6 +113,11 @@ blockquote {
   line-height: 2rem;
 }
 
+.short-caption {
+  max-width: 30ch;
+  padding: .5rem;
+}
+
 header {
   padding: 0 .5rem;
 }
@@ -123,6 +128,15 @@ header {
   padding: 1rem;
   max-width: 600px; 
 }
+
+.card-bordered {
+  display: flex;
+  border: 1px solid black;
+  padding: .5rem 1rem;
+  gap: 8px;
+}
+
+
 
   
 

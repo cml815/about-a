@@ -71,6 +71,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.third {
+  width: 33%;
+}
+
 .xl {
   font-size: 2rem;
   line-height: 1.25rem;
