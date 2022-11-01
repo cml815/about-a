@@ -9,7 +9,7 @@ export default function About () {
         <h1>Caroline Leopold <br />Medical and Marketing Writer</h1>
       </div>
       <div className="inner container">
-          <p>As a consultant, I engage numerous clients on urgent fund development or marketing projects. At<a href="https://www.fuelcopy.com"> Fuel Copy</a>, I map out strategy and create custom communications to meet revenue goals.</p>
+          <p>As a consultant, I engage numerous clients on urgent grant and marketing projects. At<a href="https://www.fuelcopy.com"> Fuel Copy</a>, I map out strategy and create custom communications to meet revenue goals.</p>
         </div>
         <div className="flex">
           <div className="split-container">

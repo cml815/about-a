@@ -123,8 +123,11 @@ header {
   width: 50%;
   padding: 1rem;
 }
-media screen and (max-width: 400px) {
-  width: 100%;
+media screen and (max-width: 400x) {
+  .split-container {
+    width: 100%;
+  }
+  
 }
 
 /** GLOBAL LAYOUTS */
