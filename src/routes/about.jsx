@@ -2,6 +2,7 @@ import "../App.css";
 import "../global.css";
 import "../utils.css";
 import profile from "./pro-pic-twitter.jpg"
+import covidImage from "./covid-19.png"
 
 export default function About () {
   return (
@@ -25,7 +26,9 @@ export default function About () {
           <div className="">
           <h4>Work highlights</h4>
           <ul className="flex">
-            <li className="third card-bordered"><p className="short-caption">$14.5M in grants for innovative COVID-19 projects</p></li>
+            <li className="flex-c centered third card-bordered">
+              <img className="thumbnail" src={covidImage} />
+              <p className="short-caption">$14.5M in grants for innovative COVID-19 projects</p></li>
             <li className="third card-bordered"><p className="short-caption">Helped 16 small businesses win 13M in SBIR funding. </p></li>
             <li className="third card-bordered"><p className="short-caption">Content writing published on global brand websites and influential websites.</p></li>
         </ul>

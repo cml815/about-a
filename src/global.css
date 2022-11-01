@@ -133,9 +133,11 @@ header {
   display: flex;
   border: 1px solid black;
   padding: .5rem 1rem;
-  gap: 8px;
 }
 
+.thumbnail {
+  width: 64px;
+}
 
 
   
