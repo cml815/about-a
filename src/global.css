@@ -119,20 +119,9 @@ header {
 
 /* CONTAINERS */
 
-.flex-mobile {
-  width: 100%;
-  display: flex;
-}
-@media screen and (max-width: 400px) {
-  .flex-mobile {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-}
-
 .split-container {
   padding: 1rem;
+  max-width: 600px; 
 }
 
   

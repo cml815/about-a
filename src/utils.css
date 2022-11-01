@@ -33,6 +33,15 @@
   flex-direction: column;
 }
 
+.flex-m {
+  display:flex;
+}
+@media screen and (max-width: 400px) {
+  .flex-m {
+    flex-direction: column;
+  }
+}
+
 .inline-flex {
   display: inline-flex;
 }
