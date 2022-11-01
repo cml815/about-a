@@ -119,16 +119,23 @@ header {
 
 /* CONTAINERS */
 
-.split-container {
-  width: 50%;
-  padding: 1rem;
+.flex-mobile {
+  width: 100%;
+  display: flex;
 }
-media screen and (max-width: 400x) {
-  .split-container {
+@media screen and (max-width: 400px) {
+  .flex-mobile {
+    display: flex;
+    flex-direction: column;
     width: 100%;
   }
-  
 }
+
+.split-container {
+  padding: 1rem;
+}
+
+  
 
 /** GLOBAL LAYOUTS */
 

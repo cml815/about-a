@@ -11,7 +11,7 @@ export default function About () {
       <div className="inner container">
           <p>As a consultant, I engage numerous clients on urgent grant and marketing projects. At<a href="https://www.fuelcopy.com"> Fuel Copy</a>, I map out strategy and create custom communications to meet revenue goals.</p>
         </div>
-        <div className="flex">
+        <div className="flex-mobile">
           <div className="split-container">
             <p>About 75% of my time is writing grant proposals for universities, national non-profits and medical centers. The subject matter ranges from health system innovations, medical education, public health, and biomedical research.</p>
             <p>My remaining time is spent writing digital marketing content largely in health, technology and automotive and travel.</p>
