@@ -136,7 +136,8 @@ header {
 }
 
 .thumbnail {
-  width: 64px;
+  padding: .5rem 0;
+  width: 100px;
 }
 
 

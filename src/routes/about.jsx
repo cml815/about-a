@@ -3,6 +3,8 @@ import "../global.css";
 import "../utils.css";
 import profile from "./pro-pic-twitter.jpg"
 import covidImage from "./covid-19.png"
+import agileImage from "./agile.png"
+import digitalImage from "./digital.png"
 
 export default function About () {
   return (
@@ -29,8 +31,12 @@ export default function About () {
             <li className="flex-c centered third card-bordered">
               <img className="thumbnail" src={covidImage} />
               <p className="short-caption">$14.5M in grants for innovative COVID-19 projects</p></li>
-            <li className="third card-bordered"><p className="short-caption">Helped 16 small businesses win 13M in SBIR funding. </p></li>
-            <li className="third card-bordered"><p className="short-caption">Content writing published on global brand websites and influential websites.</p></li>
+            <li className="third centered card-bordered">
+            <img className="thumbnail" src={agileImage} />
+              <p className="short-caption">Helped 16 small businesses win 13M in SBIR funding. </p></li>
+            <li className="third card-bordered centered">
+              <img className="thumbnail" src={digitalImage} />
+              <p className="short-caption">Content writing published on global brand websites and influential websites.</p></li>
         </ul>
           </div>
     </main>
