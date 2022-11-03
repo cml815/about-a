@@ -41,7 +41,7 @@ background-color: orange;
 
 .autoGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: 450px;
   gap: 2rem;
   padding: 4rem 1rem; 
