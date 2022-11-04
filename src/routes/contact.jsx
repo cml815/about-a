@@ -1,8 +1,15 @@
 export default function Contact () {
   return (
-    <div className="">
-      <h1>Contact</h1>
-      <p>Get in touch!</p>
-    </div>
+    <main>
+      <div className="inner">
+      <h2>Let's chat</h2>
+        <div className="flex inner">
+          <p><span>Email&nbsp;<a href="mailto:caroline@fuelcopy.com">caroline@fuelcopy.com</a></span></p>
+        <ul className="socials">
+          <li>test</li>
+          </ul>
+        </div>
+      </div>
+    </main>
   )
 }

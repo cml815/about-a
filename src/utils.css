@@ -39,6 +39,7 @@
 @media screen and (max-width: 400px) {
   .flex-m {
     flex-direction: column;
+    padding: 0;
   }
 }
 
@@ -95,4 +96,9 @@
 .tightHeight {
   line-height: .5rem;
 }
+
+.lh-room > p {
+  line-height: 1.75;
+}
+
 

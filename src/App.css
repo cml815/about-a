@@ -43,7 +43,7 @@ background-color: orange;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: 450px;
-  gap: 2rem;
+  gap: 2rem; 
   padding: 4rem 1rem; 
 }
 
@@ -137,6 +137,5 @@ background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+  } 
 }
