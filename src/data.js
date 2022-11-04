@@ -19,7 +19,7 @@ let projects = [
     //   "health"
     // ],
     image: require("./images/women-garden.jpg"),
-    snippet: "Benefiber envisioned a content strategy to position the fiber supplement as top-of-mind for active people. As writer, I created a series of relatable and informational articles on Benefiber's website. The articles explain health topics in a (no pun intended) digestible format. Each article from authoritative health sources and underwent regulatory review.",
+    snippet: "Benefiber envisioned a content strategy to position the fiber supplement as top-of-mind for active people. As writer, I created a series of relatable and informational articles on Benefiber's website. The articles explain health topics in a (no pun intended) digestible format. Each article cited authoritative health sources and underwent regulatory review.",
     results: "The series feature articles remain on the Benefiber website to enable audiences to connect relatable health.",
     excerpt: "As we age, there are factors that contribute to the slowing of the digestive system...Though there's nothing we can do to prevent aging, eating a healthy diet, drinking plenty of water, and getting regular exercise are some of the things we can do to prevent digestive problems.",
     title0: "Aging and Digestion",
