@@ -44,7 +44,7 @@ let projects = [
       {tag: "relatable", type: ""}
     ],
     image: require("./images/braces-640.360.jpg"),
-    snippet: "Colgate® used a content strategy to make the oral health line more relatable and trustworthy. What the do especially well is offering authoritative information and product information in one place. The results was evergreen content that directly tied oral health information with relevant products",
+    snippet: "Colgate® used a content strategy to make the trusted oral health line more relatable. The brand's winning strategy is to offer clear, accurate information and product recommendations in one place. That winning strategy drives awareness and sales and bolsters the reputation of an already respected oral health brand.",
     results: "Magazine-style articles tied with health and brand information drive more awareness and sales for the respected oral health brand.",
     excerpt: "[T]here are actions you can take to prevent bad breath the next time you're under pressure from a first date, a job interview, an important meeting, giving a speech at the Oscars, or your next rocket launch (while wearing a space helmet, good breath is imperative). So sit back, relax, and calm those nerves, because we have a few tips and tricks that may be able to help you.",
     url0: "https://www.colgate.com/en-us/oral-health/bad-breath/how-to-help-bad-breath-go-away-under-stress",
