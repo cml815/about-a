@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="contact flex-m">
-        <div className="">
+        <div className="inner">
           <p>Ask me (almost) anything!</p>
           <p><span>Email&nbsp;<a href="mailto:caroline@fuelcopy.com">caroline@fuelcopy.com</a></span></p>
         </div>
