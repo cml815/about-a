@@ -1,4 +1,4 @@
-# About Portfolio Websites
+# About the React Portfolio Website
 
 This simple website uses React to build the a portfolio website. The site is a test of the functionality of React and have rudimentary features. 
 
