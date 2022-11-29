@@ -5,7 +5,7 @@ import "../utils.css";
 export default function Contact () {
   return (
     <main className="contactWrap">
-      <div className="contactContainer flex-m">
+      <div className="contactContainer paddingLg flex-m">
         <div className="panelHalf">
           <h2>Let's chat</h2>
         </div>

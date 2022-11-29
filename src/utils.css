@@ -51,6 +51,10 @@
   max-width: 750px;
 }
 
+.paddingLg {
+  padding: 2rem;
+}
+
 /* .flex-wrap {
   display: flex;
   flex-direction: row;
