@@ -12,7 +12,6 @@ export default function Contact () {
         <p>
           You may be curious about this website. I have been making sites as a hobby and feel free to browse this site's Github repo. It's a dead simple build with React and a JSON data file for the portfolio entries.
         </p>
-        <p>Fingers crossed, I plan to build a proper portfolio database using PostgresSQL.</p>
       </div>
     </main>
   )
