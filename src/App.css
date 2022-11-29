@@ -144,7 +144,12 @@ background-color: orange;
   display: flex;
 }
 
-.contactContainer {
-  
+.panelHalf {
+  width: 100%;
+  flex-direction: column;
 }
-
+@media (min-width: 401px) {
+  .panelHalf {
+    width: 50%;
+  }
+}
