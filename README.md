@@ -6,6 +6,13 @@ The site maps the portfolio entries from a data file (data.js) and displays in a
 
 JSON is a fast and simple solution for data storage, but it is cumbersome and prone to typos.
 
+## Wishlist for Project
+
+MDX integration with Create React App (CRA) is not generally possible with a lot of pain. Requests for MDX in CRA have not yet been fulfilled. There may be some useless, legacy code where I tried in vain to make MDX work for CRA. 
+
+A proper database (e.g., PostgresQL) would bring more power to the portfolio. Writers' work products are complex and tedious to make from in a simple data.js file. With an actual database, it would be possible to manage a large portfolio better. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
