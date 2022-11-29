@@ -1,3 +1,11 @@
+# About Portfolio Websites
+
+This simple website uses React to build the a portfolio website. The site is a test of the functionality of React and have rudimentary features. 
+
+The site maps the portfolio entries from a data file (data.js) and displays in a gallery (Projects.js) and individual portfolio entry format (Project.js).
+
+JSON is a fast and simple solution for data storage, but it is cumbersome and prone to typos.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
