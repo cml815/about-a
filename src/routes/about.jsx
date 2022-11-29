@@ -1,7 +1,6 @@
 import "../App.css";
 import "../global.css";
 import "../utils.css";
-import "../App.css";
 import profile from "./pro-pic-twitter.jpg"
 import covidImage from "./covid-19.png"
 import agileImage from "./agile.png"
