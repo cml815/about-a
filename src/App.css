@@ -144,6 +144,10 @@ background-color: orange;
   display: flex;
 }
 
+.contactContainer {
+  height: 100vh;
+}
+
 .panelHalf {
   width: 100%;
   flex-direction: column;

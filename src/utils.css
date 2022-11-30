@@ -55,11 +55,9 @@
   padding: 2rem;
 }
 
-/* .flex-wrap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-} */
+.text-col {
+  max-width: 750px;
+}
 
 .arrow {
   font-size: 1.25rem;
